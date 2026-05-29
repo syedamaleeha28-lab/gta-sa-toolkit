@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --neon-green: #39ff14;
+  --neon-orange: #ff8c00;
+  --neon-purple: #b026ff;
+  --gta-dark: #0b0b0f;
+  --gta-panel: #14141c;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-gta-dark text-gray-100 antialiased;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply rounded-2xl border border-white/10 bg-white/5 shadow-lg backdrop-blur-xl;
+  }
+
+  .neon-text-green {
+    text-shadow: 0 0 20px rgba(57, 255, 20, 0.5);
+  }
+
+  .neon-text-orange {
+    text-shadow: 0 0 20px rgba(255, 140, 0, 0.5);
+  }
+
+  .hero-grid {
+    background-image:
+      linear-gradient(rgba(57, 255, 20, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(57, 255, 20, 0.04) 1px, transparent 1px),
+      radial-gradient(ellipse at 50% 0%, rgba(176, 38, 255, 0.15) 0%, transparent 60%),
+      radial-gradient(ellipse at 80% 80%, rgba(255, 140, 0, 0.08) 0%, transparent 40%);
+    background-size: 40px 40px, 40px 40px, 100% 100%, 100% 100%;
+  }
+
+  .prose-legal h2 {
+    @apply font-display text-xl text-white;
+  }
+  .prose-legal a {
+    @apply text-neon-green hover:underline;
+  }
+  .prose-legal p {
+    @apply leading-relaxed;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}

@@ -1,0 +1,68 @@
+import type { SaveGame } from "@/types";
+
+export const saveGames: SaveGame[] = [
+  {
+    id: "s1",
+    title: "100% Completion Save",
+    category: "100-percent",
+    description: "Fully completed game with all missions, side quests, collectibles, and max stats.",
+    requirements: ["Android 8+", "2GB free space"],
+    tags: ["100%", "All Weapons", "Max Stats"],
+  },
+  {
+    id: "s2",
+    title: "Los Santos Complete",
+    category: "100-percent",
+    description: "All Los Santos story missions done, ready for countryside arc.",
+    requirements: ["Android 8+", "1GB free space"],
+    tags: ["Story", "Los Santos"],
+  },
+  {
+    id: "s3",
+    title: "All Safehouses Unlocked",
+    category: "mission-unlock",
+    description: "Every safehouse purchased across all three cities.",
+    requirements: ["Android 7+", "500MB free space"],
+    tags: ["Safehouses", "Properties"],
+  },
+  {
+    id: "s4",
+    title: "Pilot License Unlocked",
+    category: "mission-unlock",
+    description: "Flying school completed with all aircraft access.",
+    requirements: ["Android 8+", "500MB free space"],
+    tags: ["Flying", "Licenses"],
+  },
+  {
+    id: "s5",
+    title: "Grove Street Strong",
+    category: "mission-unlock",
+    description: "Maximum gang territory in Los Santos with full respect.",
+    requirements: ["Android 7+", "500MB free space"],
+    tags: ["Gang", "Territory"],
+  },
+  {
+    id: "s6",
+    title: "Fresh Start — Los Santos",
+    category: "beginner",
+    description: "New game at Grove Street with basic tutorial missions available.",
+    requirements: ["Any Android 8+ device"],
+    tags: ["New Game", "Beginner"],
+  },
+  {
+    id: "s7",
+    title: "Rich Start ($1M)",
+    category: "beginner",
+    description: "Begin with $1,000,000 for easy vehicle and property purchases.",
+    requirements: ["Android 8+"],
+    tags: ["Money", "Starter"],
+  },
+  {
+    id: "s8",
+    title: "All Weapons Starter",
+    category: "beginner",
+    description: "Start with full weapon set unlocked from the beginning.",
+    requirements: ["Android 8+"],
+    tags: ["Weapons", "Starter"],
+  },
+];

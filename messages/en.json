@@ -1,0 +1,168 @@
+{
+  "common": {
+    "siteName": "GTA San Andreas Toolkit",
+    "tagline": "Your ultimate GTA SA companion for Android",
+    "search": "Search...",
+    "copy": "Copy",
+    "favorite": "Favorite",
+    "unfavorite": "Remove favorite",
+    "learnMore": "Learn more",
+    "getStarted": "Get Started",
+    "viewAll": "View all",
+    "clearAll": "Clear all",
+    "back": "Back",
+    "loading": "Loading...",
+    "noResults": "No results found",
+    "disclaimer": "Unofficial fan resource. Not affiliated with Rockstar Games."
+  },
+  "nav": {
+    "home": "Home",
+    "cheats": "Cheats",
+    "installWizard": "Install Guide",
+    "compatibility": "Compatibility",
+    "saves": "Save Games",
+    "versions": "Versions",
+    "missions": "Missions",
+    "troubleshooting": "Troubleshooting",
+    "blog": "Blog",
+    "favorites": "Favorites",
+    "analytics": "Analytics"
+  },
+  "footer": {
+    "about": "About",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "disclaimer": "Disclaimer",
+    "rights": "All rights reserved.",
+    "description": "Premium toolkit for GTA San Andreas Android players."
+  },
+  "home": {
+    "heroTitle": "GTA San Andreas",
+    "heroSubtitle": "Toolkit",
+    "heroDescription": "Cheat codes, install guides, compatibility checks, mission walkthroughs — everything you need in one premium app.",
+    "ctaCheats": "Find Cheats",
+    "ctaInstall": "Install Guide",
+    "ctaCompatibility": "Check Device",
+    "statsCheats": "Cheat Codes",
+    "statsMissions": "Mission Guides",
+    "statsArticles": "Articles",
+    "statsUsers": "Happy Players",
+    "featuresTitle": "Powerful Tools",
+    "featuresSubtitle": "Everything for GTA SA Android",
+    "testimonialsTitle": "What Players Say",
+    "blogTitle": "Latest from the Blog",
+    "blogSubtitle": "Tips, guides, and updates"
+  },
+  "cheats": {
+    "title": "Cheat Code Finder",
+    "description": "Search and copy GTA San Andreas cheat codes instantly.",
+    "searchPlaceholder": "Search cheats by name or code...",
+    "copySuccess": "Cheat code copied!",
+    "copyError": "Failed to copy",
+    "categories": {
+      "all": "All",
+      "weapons": "Weapons",
+      "vehicles": "Vehicles",
+      "police": "Police",
+      "health": "Health",
+      "fun": "Fun",
+      "weather": "Weather"
+    },
+    "faq": {
+      "q1": "How do I enter cheats on GTA SA Android?",
+      "a1": "During gameplay, tap the screen to bring up the keyboard and type the cheat code exactly as shown. Some codes require a short pause between characters.",
+      "q2": "Do cheats disable achievements?",
+      "a2": "Using cheats may prevent you from earning certain achievements and can affect your save file. Use a backup save before experimenting."
+    }
+  },
+  "wizard": {
+    "title": "Android Installation Wizard",
+    "description": "Step-by-step guide to install GTA SA APK and OBB files.",
+    "selectAndroid": "Select your Android version",
+    "stepsTitle": "Installation Steps",
+    "errorsTitle": "Common Errors",
+    "faqTitle": "FAQ"
+  },
+  "compatibility": {
+    "title": "Device Compatibility Checker",
+    "description": "Find the best GTA SA version and graphics settings for your device.",
+    "androidVersion": "Android Version",
+    "ram": "RAM (GB)",
+    "storage": "Free Storage (GB)",
+    "check": "Check Compatibility",
+    "score": "Performance Score",
+    "recommendedVersion": "Recommended Version",
+    "graphics": "Graphics Settings",
+    "verdict": "Verdict"
+  },
+  "saves": {
+    "title": "Save Game Library",
+    "description": "Browse save game categories for different play styles.",
+    "disclaimer": "Educational reference only. Always backup your own saves.",
+    "download": "View Details",
+    "categories": {
+      "all": "All",
+      "100-percent": "100% Complete",
+      "mission-unlock": "Mission Unlock",
+      "beginner": "Beginner"
+    }
+  },
+  "versions": {
+    "title": "Version Comparison",
+    "description": "Compare GTA SA and Vice City Android builds.",
+    "size": "Size",
+    "features": "Features",
+    "android": "Android Min",
+    "graphics": "Graphics Rating",
+    "recommended": "Recommended"
+  },
+  "missions": {
+    "title": "Mission Guide",
+    "description": "Walkthroughs and tips for every GTA SA mission.",
+    "searchPlaceholder": "Search missions...",
+    "difficulty": "Difficulty",
+    "tips": "Tips",
+    "walkthrough": "Walkthrough",
+    "relatedPosts": "Related Articles"
+  },
+  "troubleshooting": {
+    "title": "Troubleshooting Center",
+    "description": "Fix common GTA SA Android issues quickly.",
+    "solutions": "Solutions"
+  },
+  "favorites": {
+    "title": "My Favorites",
+    "description": "Your saved cheats and guides.",
+    "cheatsTab": "Cheats",
+    "guidesTab": "Guides",
+    "empty": "No favorites yet. Start exploring!",
+    "goCheats": "Browse Cheats",
+    "goMissions": "Browse Missions"
+  },
+  "analytics": {
+    "title": "Analytics Dashboard",
+    "description": "Your personal usage stats (stored on this device only).",
+    "totalViews": "Total Cheat Views",
+    "topCopied": "Most Copied Cheats",
+    "popularCategories": "Popular Categories",
+    "localNote": "Stats are stored locally on your device and are never sent to a server."
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Guides, tips, and news for GTA San Andreas Android.",
+    "featured": "Featured",
+    "readMore": "Read more",
+    "related": "Related Posts"
+  },
+  "legal": {
+    "aboutTitle": "About Us",
+    "contactTitle": "Contact",
+    "privacyTitle": "Privacy Policy",
+    "disclaimerTitle": "Disclaimer"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "This block of San Andreas doesn't exist.",
+    "home": "Back to Home"
+  }
+}

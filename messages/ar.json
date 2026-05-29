@@ -1,0 +1,168 @@
+{
+  "common": {
+    "siteName": "أدوات GTA سان أندرياس",
+    "tagline": "رفيقك الأمثل لـ GTA SA على أندرويد",
+    "search": "بحث...",
+    "copy": "نسخ",
+    "favorite": "مفضلة",
+    "unfavorite": "إزالة من المفضلة",
+    "learnMore": "اعرف المزيد",
+    "getStarted": "ابدأ الآن",
+    "viewAll": "عرض الكل",
+    "clearAll": "مسح الكل",
+    "back": "رجوع",
+    "loading": "جاري التحميل...",
+    "noResults": "لا توجد نتائج",
+    "disclaimer": "مصدر غير رسمي للمعجبين. غير تابع لـ Rockstar Games."
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "cheats": "الأكواد",
+    "installWizard": "دليل التثبيت",
+    "compatibility": "التوافق",
+    "saves": "ملفات الحفظ",
+    "versions": "الإصدارات",
+    "missions": "المهمات",
+    "troubleshooting": "استكشاف الأخطاء",
+    "blog": "المدونة",
+    "favorites": "المفضلة",
+    "analytics": "الإحصائيات"
+  },
+  "footer": {
+    "about": "من نحن",
+    "contact": "اتصل بنا",
+    "privacy": "سياسة الخصوصية",
+    "disclaimer": "إخلاء المسؤولية",
+    "rights": "جميع الحقوق محفوظة.",
+    "description": "أدوات متميزة للاعبي GTA San Andreas على أندرويد."
+  },
+  "home": {
+    "heroTitle": "GTA سان أندرياس",
+    "heroSubtitle": "الأدوات",
+    "heroDescription": "أكواد الغش، أدلة التثبيت، فحص التوافق، شرح المهمات — كل ما تحتاجه في تطبيق واحد.",
+    "ctaCheats": "ابحث عن الأكواد",
+    "ctaInstall": "دليل التثبيت",
+    "ctaCompatibility": "فحص الجهاز",
+    "statsCheats": "أكواد الغش",
+    "statsMissions": "دليل المهمات",
+    "statsArticles": "مقالات",
+    "statsUsers": "لاعبين سعداء",
+    "featuresTitle": "أدوات قوية",
+    "featuresSubtitle": "كل شيء لـ GTA SA على أندرويد",
+    "testimonialsTitle": "ماذا يقول اللاعبون",
+    "blogTitle": "أحدث المقالات",
+    "blogSubtitle": "نصائح وأدلة وتحديثات"
+  },
+  "cheats": {
+    "title": "باحث أكواد الغش",
+    "description": "ابحث وانسخ أكواد GTA San Andreas فوراً.",
+    "searchPlaceholder": "ابحث بالاسم أو الكود...",
+    "copySuccess": "تم نسخ الكود!",
+    "copyError": "فشل النسخ",
+    "categories": {
+      "all": "الكل",
+      "weapons": "أسلحة",
+      "vehicles": "مركبات",
+      "police": "شرطة",
+      "health": "صحة",
+      "fun": "مرح",
+      "weather": "طقس"
+    },
+    "faq": {
+      "q1": "كيف أدخل أكواد الغش على أندرويد؟",
+      "a1": "أثناء اللعب، اضغط على الشاشة لفتح لوحة المفاتيح واكتب الكود كما هو موضح.",
+      "q2": "هل الأكواد تعطل الإنجازات؟",
+      "a2": "استخدام الأكواد قد يمنعك من بعض الإنجازات. احفظ نسخة احتياطية قبل التجربة."
+    }
+  },
+  "wizard": {
+    "title": "معالج تثبيت أندرويد",
+    "description": "دليل خطوة بخطوة لتثبيت APK وملفات OBB.",
+    "selectAndroid": "اختر إصدار أندرويد",
+    "stepsTitle": "خطوات التثبيت",
+    "errorsTitle": "أخطاء شائعة",
+    "faqTitle": "الأسئلة الشائعة"
+  },
+  "compatibility": {
+    "title": "فحص توافق الجهاز",
+    "description": "اعثر على أفضل إصدار وإعدادات رسوميات لجهازك.",
+    "androidVersion": "إصدار أندرويد",
+    "ram": "الذاكرة (GB)",
+    "storage": "التخزين الحر (GB)",
+    "check": "فحص التوافق",
+    "score": "درجة الأداء",
+    "recommendedVersion": "الإصدار الموصى به",
+    "graphics": "إعدادات الرسوميات",
+    "verdict": "الحكم"
+  },
+  "saves": {
+    "title": "مكتبة ملفات الحفظ",
+    "description": "تصفح فئات ملفات الحفظ لأنماط لعب مختلفة.",
+    "disclaimer": "للمرجع التعليمي فقط. احفظ نسخك الخاصة دائماً.",
+    "download": "عرض التفاصيل",
+    "categories": {
+      "all": "الكل",
+      "100-percent": "100% مكتمل",
+      "mission-unlock": "فتح المهمات",
+      "beginner": "مبتدئ"
+    }
+  },
+  "versions": {
+    "title": "مقارنة الإصدارات",
+    "description": "قارن إصدارات GTA SA و Vice City.",
+    "size": "الحجم",
+    "features": "الميزات",
+    "android": "أندرويد الأدنى",
+    "graphics": "تقييم الرسوميات",
+    "recommended": "موصى به"
+  },
+  "missions": {
+    "title": "دليل المهمات",
+    "description": "شروحات ونصائح لكل مهمة في GTA SA.",
+    "searchPlaceholder": "ابحث عن المهمات...",
+    "difficulty": "الصعوبة",
+    "tips": "نصائح",
+    "walkthrough": "الشرح",
+    "relatedPosts": "مقالات ذات صلة"
+  },
+  "troubleshooting": {
+    "title": "مركز استكشاف الأخطاء",
+    "description": "إصلاح مشاكل GTA SA الشائعة على أندرويد.",
+    "solutions": "الحلول"
+  },
+  "favorites": {
+    "title": "مفضلتي",
+    "description": "أكوادك وأدلةك المحفوظة.",
+    "cheatsTab": "أكواد",
+    "guidesTab": "أدلة",
+    "empty": "لا توجد مفضلات بعد. ابدأ الاستكشاف!",
+    "goCheats": "تصفح الأكواد",
+    "goMissions": "تصفح المهمات"
+  },
+  "analytics": {
+    "title": "لوحة الإحصائيات",
+    "description": "إحصائيات استخدامك الشخصية (محفوظة على هذا الجهاز فقط).",
+    "totalViews": "إجمالي مشاهدات الأكواد",
+    "topCopied": "الأكواد الأكثر نسخاً",
+    "popularCategories": "الفئات الشائعة",
+    "localNote": "الإحصائيات محفوظة محلياً ولا تُرسل إلى أي خادم."
+  },
+  "blog": {
+    "title": "المدونة",
+    "description": "أدلة ونصائح وأخبار لـ GTA San Andreas.",
+    "featured": "مميز",
+    "readMore": "اقرأ المزيد",
+    "related": "مقالات ذات صلة"
+  },
+  "legal": {
+    "aboutTitle": "من نحن",
+    "contactTitle": "اتصل بنا",
+    "privacyTitle": "سياسة الخصوصية",
+    "disclaimerTitle": "إخلاء المسؤولية"
+  },
+  "notFound": {
+    "title": "الصفحة غير موجودة",
+    "description": "هذا الحي من سان أندرياس غير موجود.",
+    "home": "العودة للرئيسية"
+  }
+}
