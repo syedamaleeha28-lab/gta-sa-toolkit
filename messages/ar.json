@@ -34,7 +34,8 @@
     "privacy": "سياسة الخصوصية",
     "disclaimer": "إخلاء المسؤولية",
     "rights": "جميع الحقوق محفوظة.",
-    "description": "أدوات متميزة للاعبي GTA San Andreas على أندرويد."
+    "description": "أدوات متميزة للاعبي GTA San Andreas على أندرويد.",
+    "poweredBy": "مدعوم من"
   },
   "home": {
     "heroTitle": "GTA سان أندرياس",
@@ -51,7 +52,15 @@
     "featuresSubtitle": "كل شيء لـ GTA SA على أندرويد",
     "testimonialsTitle": "ماذا يقول اللاعبون",
     "blogTitle": "أحدث المقالات",
-    "blogSubtitle": "نصائح وأدلة وتحديثات"
+    "blogSubtitle": "نصائح وأدلة وتحديثات",
+    "officialResources": {
+      "title": "موارد GTA الرسمية",
+      "subtitle": "أدلة وتحميلات موثوقة من GTASanad.org",
+      "gtaSaApk": "GTA San Andreas APK",
+      "gtaSaCheats": "أكواد غش GTA San Andreas",
+      "gtaSaInstall": "دليل تثبيت GTA San Andreas",
+      "gtaVcApk": "GTA Vice City APK"
+    }
   },
   "cheats": {
     "title": "باحث أكواد الغش",

@@ -3,14 +3,46 @@ import {
   SITE_URL,
   SITE_DESCRIPTION,
   PUBLISHER,
+  LOGO_PATH,
+  LOGO_ALT,
 } from "./constants";
 import { gameVersions } from "@/data/versions";
 
+/** Absolute logo URL for JSON-LD (toolkit-hosted asset) */
+export function getPublisherLogoUrl(): string {
+  return `${SITE_URL}${LOGO_PATH}`;
+}
+
+/** GTA Sanad logo as schema.org ImageObject */
+export function publisherLogoImageObject() {
+  const logoUrl = getPublisherLogoUrl();
+  return {
+    "@type": "ImageObject" as const,
+    "@id": `${PUBLISHER.url}#logo`,
+    url: logoUrl,
+    contentUrl: logoUrl,
+    name: LOGO_ALT,
+    caption: LOGO_ALT,
+    sameAs: PUBLISHER.logo,
+  };
+}
+
+/** GTASanad.org / GTA Sanad publisher for all structured data */
 export function publisherOrganization() {
   return {
     "@type": "Organization" as const,
+    "@id": `${PUBLISHER.url}#organization`,
     name: PUBLISHER.name,
+    alternateName: PUBLISHER.alternateName,
     url: PUBLISHER.url,
+    logo: publisherLogoImageObject(),
+  };
+}
+
+export function buildOrganizationSchema() {
+  return {
+    "@context": "https://schema.org",
+    ...publisherOrganization(),
   };
 }
 
@@ -57,6 +89,15 @@ export function buildSoftwareApplicationSchema(locale: string) {
       ratingCount: 1,
     },
   };
+}
+
+/** Organization + WebApplication + SoftwareApplication on every page */
+export function buildPagePublisherSchemas(locale: string) {
+  return [
+    buildOrganizationSchema(),
+    buildWebApplicationSchema(locale),
+    buildSoftwareApplicationSchema(locale),
+  ];
 }
 
 export interface FaqItem {

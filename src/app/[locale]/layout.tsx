@@ -6,7 +6,15 @@ import { routing } from "@/i18n/routing";
 import { Providers } from "@/providers/Providers";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
-import { SITE_NAME, SITE_DESCRIPTION, SITE_URL, OG_IMAGE } from "@/lib/constants";
+import { PublisherJsonLd } from "@/components/seo/PublisherJsonLd";
+import {
+  SITE_NAME,
+  SITE_DESCRIPTION,
+  SITE_URL,
+  OG_IMAGE,
+  LOGO_WIDTH,
+  LOGO_HEIGHT,
+} from "@/lib/constants";
 import "../globals.css";
 
 const display = Bebas_Neue({
@@ -37,6 +45,10 @@ export async function generateMetadata({
       template: `%s | ${SITE_NAME}`,
     },
     description: SITE_DESCRIPTION,
+    icons: {
+      icon: OG_IMAGE,
+      apple: OG_IMAGE,
+    },
     openGraph: {
       title: SITE_NAME,
       description: SITE_DESCRIPTION,
@@ -44,12 +56,20 @@ export async function generateMetadata({
       siteName: SITE_NAME,
       locale: locale === "ar" ? "ar_SA" : "en_US",
       type: "website",
-      images: [{ url: OG_IMAGE, width: 1200, height: 630 }],
+      images: [
+        {
+          url: OG_IMAGE,
+          width: LOGO_WIDTH,
+          height: LOGO_HEIGHT,
+          alt: "GTA Sanad Logo",
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: SITE_NAME,
       description: SITE_DESCRIPTION,
+      images: [OG_IMAGE],
     },
   };
 }
@@ -77,6 +97,7 @@ export default async function LocaleLayout({
         className={`${display.variable} ${sans.variable} font-sans min-h-screen flex flex-col`}
       >
         <NextIntlClientProvider messages={messages}>
+          <PublisherJsonLd locale={locale} />
           <Providers>
             <Header />
             <main className="flex-1">{children}</main>

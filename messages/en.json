@@ -34,7 +34,8 @@
     "privacy": "Privacy Policy",
     "disclaimer": "Disclaimer",
     "rights": "All rights reserved.",
-    "description": "Premium toolkit for GTA San Andreas Android players."
+    "description": "Premium toolkit for GTA San Andreas Android players.",
+    "poweredBy": "Powered by"
   },
   "home": {
     "heroTitle": "GTA San Andreas",
@@ -51,7 +52,15 @@
     "featuresSubtitle": "Everything for GTA SA Android",
     "testimonialsTitle": "What Players Say",
     "blogTitle": "Latest from the Blog",
-    "blogSubtitle": "Tips, guides, and updates"
+    "blogSubtitle": "Tips, guides, and updates",
+    "officialResources": {
+      "title": "Official GTA Resources",
+      "subtitle": "Trusted guides and downloads from GTASanad.org",
+      "gtaSaApk": "GTA San Andreas APK",
+      "gtaSaCheats": "GTA San Andreas Cheat Codes",
+      "gtaSaInstall": "GTA San Andreas Installation Guide",
+      "gtaVcApk": "GTA Vice City APK"
+    }
   },
   "cheats": {
     "title": "Cheat Code Finder",

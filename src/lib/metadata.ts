@@ -1,5 +1,13 @@
 import type { Metadata } from "next";
-import { SITE_NAME, SITE_URL, SITE_DESCRIPTION, OG_IMAGE } from "./constants";
+import {
+  SITE_NAME,
+  SITE_URL,
+  SITE_DESCRIPTION,
+  OG_IMAGE,
+  LOGO_WIDTH,
+  LOGO_HEIGHT,
+  LOGO_ALT,
+} from "./constants";
 
 type PageMetaOptions = {
   title: string;
@@ -33,7 +41,14 @@ export function buildPageMetadata({
       siteName: SITE_NAME,
       locale: locale === "ar" ? "ar_SA" : "en_US",
       type: "website",
-      images: [{ url: `${SITE_URL}${OG_IMAGE}`, width: 1200, height: 630 }],
+      images: [
+        {
+          url: `${SITE_URL}${OG_IMAGE}`,
+          width: LOGO_WIDTH,
+          height: LOGO_HEIGHT,
+          alt: LOGO_ALT,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",

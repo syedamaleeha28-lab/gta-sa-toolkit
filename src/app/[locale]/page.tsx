@@ -4,7 +4,7 @@ import { StatsBar } from "@/components/home/StatsBar";
 import { FeaturesGrid } from "@/components/home/FeaturesGrid";
 import { Testimonials } from "@/components/home/Testimonials";
 import { FeaturedBlog } from "@/components/home/FeaturedBlog";
-import { SiteSchemas } from "@/components/seo/SiteSchemas";
+import { OfficialResources } from "@/components/home/OfficialResources";
 
 export default async function HomePage({
   params,
@@ -16,10 +16,10 @@ export default async function HomePage({
 
   return (
     <>
-      <SiteSchemas locale={locale} includeSoftwareApplication />
       <Hero />
       <StatsBar />
       <FeaturesGrid />
+      <OfficialResources />
       <Testimonials />
       <FeaturedBlog />
     </>

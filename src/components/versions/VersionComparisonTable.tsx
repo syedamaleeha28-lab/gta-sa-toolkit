@@ -2,20 +2,12 @@ import { getTranslations } from "next-intl/server";
 import { gameVersions } from "@/data/versions";
 import { GlassCard } from "@/components/ui/GlassCard";
 import { Badge } from "@/components/ui/Badge";
-import { JsonLd } from "@/components/seo/JsonLd";
-import { buildSoftwareApplicationSchema } from "@/lib/schema";
 
-export async function VersionComparisonTable({
-  locale,
-}: {
-  locale: string;
-}) {
+export async function VersionComparisonTable() {
   const t = await getTranslations("versions");
 
   return (
-    <>
-      <JsonLd data={buildSoftwareApplicationSchema(locale)} />
-      <div className="overflow-x-auto">
+    <div className="overflow-x-auto">
         <div className="grid min-w-[640px] gap-4 lg:grid-cols-3">
           {gameVersions.map((version) => (
             <GlassCard
@@ -63,6 +55,5 @@ export async function VersionComparisonTable({
           ))}
         </div>
       </div>
-    </>
   );
 }

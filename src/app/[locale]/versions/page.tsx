@@ -30,7 +30,7 @@ export default async function VersionsPage({
 
   return (
     <PageShell title={t("title")} description={t("description")}>
-      <VersionComparisonTable locale={locale} />
+      <VersionComparisonTable />
     </PageShell>
   );
 }

@@ -2,11 +2,12 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import { Menu, X, Gamepad2, Heart, BarChart3 } from "lucide-react";
+import { Menu, X, Heart, BarChart3 } from "lucide-react";
 import { Link, usePathname } from "@/i18n/routing";
 import { NAV_LINKS } from "@/lib/constants";
 import { cn } from "@/lib/cn";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { BrandLogo } from "./BrandLogo";
 
 export function Header() {
   const t = useTranslations("nav");
@@ -16,13 +17,8 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-gta-dark/80 backdrop-blur-xl">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6">
-        <Link href="/" className="flex items-center gap-2">
-          <Gamepad2 className="h-8 w-8 text-neon-green" />
-          <span className="font-display text-xl tracking-wider text-white">
-            GTA <span className="text-neon-green">SA</span>
-          </span>
-        </Link>
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 sm:py-4">
+        <BrandLogo size="md" priority />
 
         <nav className="hidden items-center gap-1 lg:flex">
           {NAV_LINKS.slice(0, 6).map((link) => (

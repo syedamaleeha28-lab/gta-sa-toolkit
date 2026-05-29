@@ -1,9 +1,16 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { Gamepad2, Github, Twitter } from "lucide-react";
+import { Github, Twitter } from "lucide-react";
 import { Link } from "@/i18n/routing";
-import { FOOTER_LINKS, NAV_LINKS, SITE_NAME } from "@/lib/constants";
+import {
+  FOOTER_LINKS,
+  NAV_LINKS,
+  SITE_NAME,
+  PUBLISHER,
+} from "@/lib/constants";
+import { ExternalLink } from "@/components/ui/ExternalLink";
+import { BrandLogo } from "./BrandLogo";
 
 export function Footer() {
   const t = useTranslations("footer");
@@ -15,10 +22,10 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
         <div className="grid gap-8 md:grid-cols-4">
           <div className="md:col-span-2">
-            <Link href="/" className="flex items-center gap-2">
-              <Gamepad2 className="h-7 w-7 text-neon-green" />
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-4">
+              <BrandLogo size="sm" />
               <span className="font-display text-lg text-white">{SITE_NAME}</span>
-            </Link>
+            </div>
             <p className="mt-3 max-w-sm text-sm text-gray-400">
               {t("description")}
             </p>
@@ -56,6 +63,18 @@ export function Footer() {
               ))}
             </ul>
           </div>
+        </div>
+
+        <div className="mt-8 rounded-xl border border-neon-green/20 bg-neon-green/5 px-6 py-4 text-center">
+          <p className="text-sm text-gray-300">
+            {t("poweredBy")}{" "}
+            <ExternalLink
+              href={PUBLISHER.url}
+              className="font-semibold text-neon-green hover:text-neon-orange"
+            >
+              {PUBLISHER.name}
+            </ExternalLink>
+          </p>
         </div>
 
         <div className="mt-8 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 sm:flex-row">

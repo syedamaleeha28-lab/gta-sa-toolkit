@@ -6,10 +6,37 @@ export const SITE_DESCRIPTION =
 
 export const PUBLISHER = {
   name: "GTASanad.org",
+  alternateName: "GTA Sanad",
   url: "https://gtasanad.org",
+  /** Canonical logo on main site (upload gtasanad-logo.webp) */
+  logo: "https://gtasanad.org/gtasanad-logo.webp",
 } as const;
 
-export const OG_IMAGE = "/og-image.svg";
+export const LOGO_PATH = "/gtasanad-logo.png";
+export const LOGO_ALT = "GTA Sanad Logo";
+export const LOGO_WIDTH = 240;
+export const LOGO_HEIGHT = 80;
+
+export const OFFICIAL_RESOURCES = [
+  {
+    href: "https://gtasanad.org/",
+    labelKey: "gtaSaApk",
+  },
+  {
+    href: "https://gtasanad.org/gta-san-andreas-cheat-codes-android/",
+    labelKey: "gtaSaCheats",
+  },
+  {
+    href: "https://gtasanad.org/how-to-install-gta-san-andreas-android/",
+    labelKey: "gtaSaInstall",
+  },
+  {
+    href: "https://gtasanad.org/gta-vice-city-apk/",
+    labelKey: "gtaVcApk",
+  },
+] as const;
+
+export const OG_IMAGE = "/gtasanad-logo.png";
 
 export const NAV_LINKS = [
   { href: "/cheats", key: "cheats" },
