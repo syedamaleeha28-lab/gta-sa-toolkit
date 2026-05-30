@@ -74,6 +74,11 @@ export interface WizardFaq {
   answer: string;
 }
 
+export interface BlogContextNote {
+  en: { before: string; after: string };
+  ar: { before: string; after: string };
+}
+
 export interface BlogPost {
   slug: string;
   title: string;
@@ -82,6 +87,7 @@ export interface BlogPost {
   tags: string[];
   featured: boolean;
   body: { heading: string; content: string }[];
+  contextNote?: BlogContextNote;
 }
 
 export interface Testimonial {

@@ -35,7 +35,8 @@
     "disclaimer": "Disclaimer",
     "rights": "All rights reserved.",
     "description": "Premium toolkit for GTA San Andreas Android players.",
-    "poweredBy": "Powered by"
+    "poweredBy": "Powered by",
+    "resources": "Resources"
   },
   "home": {
     "heroTitle": "GTA San Andreas",
@@ -168,6 +169,14 @@
     "contactTitle": "Contact",
     "privacyTitle": "Privacy Policy",
     "disclaimerTitle": "Disclaimer"
+  },
+  "resources": {
+    "title": "Resources",
+    "description": "Recommended GTA San Andreas downloads, mods, save files, and installation guides.",
+    "sectionTitle": "Recommended GTA San Andreas Resources",
+    "backlinkBefore": "For GTA San Andreas downloads, mods, save files, and installation guides, visit",
+    "backlinkLabel": "GTA Sanad",
+    "intro": "These external resources complement the tools available in this toolkit."
   },
   "notFound": {
     "title": "Page Not Found",

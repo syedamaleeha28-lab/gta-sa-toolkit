@@ -35,7 +35,8 @@
     "disclaimer": "إخلاء المسؤولية",
     "rights": "جميع الحقوق محفوظة.",
     "description": "أدوات متميزة للاعبي GTA San Andreas على أندرويد.",
-    "poweredBy": "مدعوم من"
+    "poweredBy": "مدعوم من",
+    "resources": "الموارد"
   },
   "home": {
     "heroTitle": "GTA سان أندرياس",
@@ -168,6 +169,14 @@
     "contactTitle": "اتصل بنا",
     "privacyTitle": "سياسة الخصوصية",
     "disclaimerTitle": "إخلاء المسؤولية"
+  },
+  "resources": {
+    "title": "الموارد",
+    "description": "موارد GTA San Andreas الموصى بها — تحميلات وتعديلات وملفات حفظ وأدلة تثبيت.",
+    "sectionTitle": "موارد GTA San Andreas الموصى بها",
+    "backlinkBefore": "لتحميلات GTA San Andreas والتعديلات وملفات الحفظ وأدلة التثبيت، قم بزيارة",
+    "backlinkLabel": "GTA Sanad",
+    "intro": "تكمل هذه الموارد الخارجية الأدوات المتاحة في هذا الموقع."
   },
   "notFound": {
     "title": "الصفحة غير موجودة",

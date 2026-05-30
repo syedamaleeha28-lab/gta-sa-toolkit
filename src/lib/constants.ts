@@ -51,6 +51,7 @@ export const NAV_LINKS = [
 ] as const;
 
 export const FOOTER_LINKS = [
+  { href: "/resources", key: "resources" },
   { href: "/about", key: "about" },
   { href: "/contact", key: "contact" },
   { href: "/privacy", key: "privacy" },
@@ -69,6 +70,7 @@ export const STATIC_ROUTES = [
   "/favorites",
   "/analytics",
   "/blog",
+  "/resources",
   "/about",
   "/contact",
   "/privacy",

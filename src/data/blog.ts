@@ -24,6 +24,20 @@ export const blogPosts: BlogPost[] = [
       { heading: "Correct Path", content: "The OBB must go in Android/obb/com.rockstargames.gtasa/ — no typos in folder name." },
       { heading: "Verification", content: "File should be ~1.9GB. Partial downloads cause black screen issues." },
     ],
+    contextNote: {
+      en: {
+        before:
+          "If folder names or download sizes still look wrong after following these steps, ",
+        after:
+          " publishes a plain-language install reference that covers APK placement and the most common OBB path mistakes on Android.",
+      },
+      ar: {
+        before:
+          "إذا ظهرت أسماء المجلدات أو أحجام التحميل غير صحيحة بعد هذه الخطوات، ",
+        after:
+          " يقدّم مرجعاً عملياً للتثبيت يشرح وضع APK وأخطاء مسار OBB الشائعة على أندرويد.",
+      },
+    },
   },
   {
     slug: "gta-sa-211-311-vs-277",
@@ -58,6 +72,20 @@ export const blogPosts: BlogPost[] = [
     body: [
       { heading: "Quick Fix", content: "Clear cache, verify OBB path, reinstall APK without deleting OBB." },
     ],
+    contextNote: {
+      en: {
+        before:
+          "When a black screen persists after cache clearing, it helps to cross-check launch steps against a second troubleshooting list. ",
+        after:
+          " groups black-screen fixes around OBB detection, storage access, and clean reinstall order—useful if one step alone does not resolve the issue.",
+      },
+      ar: {
+        before:
+          "إذا استمرت الشاشة السوداء بعد مسح الذاكرة المؤقتة، فمن المفيد مقارنة خطوات التشغيل مع قائمة استكشاف أخطاء إضافية. ",
+        after:
+          " يجمع حلول الشاشة السوداء حول اكتشاف OBB وصلاحيات التخزين وترتيب إعادة التثبيت—مفيد إذا لم تحل خطوة واحدة المشكلة.",
+      },
+    },
   },
   {
     slug: "grove-street-mission-guide",
@@ -91,6 +119,20 @@ export const blogPosts: BlogPost[] = [
     body: [
       { heading: "Backup Path", content: "Copy files from Android/data/com.rockstargames.gtasa/files/ to cloud storage." },
     ],
+    contextNote: {
+      en: {
+        before:
+          "Before swapping in another player's save or testing mods, confirm the file matches your installed build. ",
+        after:
+          " notes where Android stores GTA SA saves and how to back them up safely before making changes.",
+      },
+      ar: {
+        before:
+          "قبل استخدام حفظ لاعب آخر أو تجربة التعديلات، تأكد أن الملف يتوافق مع إصدار اللعبة المثبت. ",
+        after:
+          " يوضح مكان حفظ ملفات GTA SA على أندرويد وكيفية نسخها احتياطياً قبل أي تغيير.",
+      },
+    },
   },
 ];
 

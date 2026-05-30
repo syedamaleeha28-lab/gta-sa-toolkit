@@ -6,6 +6,7 @@ import { blogPosts, getPostBySlug, getRelatedPosts } from "@/data/blog";
 import { PageShell } from "@/components/ui/PageShell";
 import { GlassCard } from "@/components/ui/GlassCard";
 import { Badge } from "@/components/ui/Badge";
+import { BlogContextNoteBlock } from "@/components/blog/BlogContextNoteBlock";
 import { buildPageMetadata } from "@/lib/metadata";
 
 export function generateStaticParams() {
@@ -60,6 +61,9 @@ export default async function BlogPostPage({
             <p className="mt-3 text-gray-300">{section.content}</p>
           </GlassCard>
         ))}
+        {post.contextNote && (
+          <BlogContextNoteBlock note={post.contextNote} locale={locale} />
+        )}
         {related.length > 0 && (
           <div>
             <h2 className="mb-4 font-display text-2xl text-white">
