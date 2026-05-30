@@ -178,6 +178,60 @@
     "backlinkLabel": "GTA Sanad",
     "intro": "تكمل هذه الموارد الخارجية الأدوات المتاحة في هذا الموقع."
   },
+  "toolkitPromo": {
+    "home": {
+      "eyebrow": "مركز شامل",
+      "title": "GTA San Andreas Toolkit — رفيقك الكامل",
+      "description": "أكواد الغش، أدلة تثبيت أندرويد، شرح المهمات، فحص التوافق، واستكشاف الأخطاء — كل شيء في مكان واحد.",
+      "contextBefore": "ابدأ مع",
+      "contextAnchor": "GTA SA Toolkit",
+      "contextAfter": " لاستكشاف كل الأدوات المخصصة للاعبي الموبايل.",
+      "linkCheats": "GTA SA Cheats & Tools",
+      "linkMissions": "دليل المهمات",
+      "linkInstall": "دليل تثبيت أندرويد",
+      "linkTroubleshooting": "مركز استكشاف الأخطاء"
+    },
+    "cheats": {
+      "eyebrow": "مركز الأدوات",
+      "title": "أكثر من أكواد الغش",
+      "description": "يتضمن GTA San Andreas Toolkit أيضاً معالج التثبيت ومكتبة الحفظ ومقارنة الإصدارات وشرح المهمات.",
+      "ctaPrimary": "GTA San Andreas Toolkit",
+      "ctaSecondary": "GTA SA Companion Tool",
+      "contextBefore": "تحتاج مساعدة في التثبيت أو المهمات؟ زُر",
+      "contextAnchor": "GTA SA Cheats & Tools",
+      "contextAfter": " على الصفحة الرئيسية للأدوات الكاملة."
+    },
+    "missions": {
+      "eyebrow": "مركز الأدوات",
+      "title": "عالق في مهمة؟",
+      "description": "اجمع هذه الشروحات مع باحث الأكواد وفحص التوافق ودليل استكشاف الأخطاء.",
+      "ctaPrimary": "GTA SA Toolkit",
+      "ctaSecondary": "GTA San Andreas Toolkit",
+      "contextBefore": "للأكواد والتثبيت وفحص الجهاز مع الأدلة، افتح",
+      "contextAnchor": "GTA SA Companion Tool",
+      "contextAfter": " على الصفحة الرئيسية."
+    },
+    "troubleshooting": {
+      "eyebrow": "مركز الأدوات",
+      "title": "إصلاح أسرع للمشاكل",
+      "description": "اجمع هذه الحلول مع معالج التثبيت وأدلة OBB وفحص التوافق.",
+      "ctaPrimary": "GTA San Andreas Toolkit",
+      "ctaSecondary": "GTA SA Toolkit",
+      "contextBefore": "كثير من الإصلاحات تعمل أفضل مع أدوات التثبيت على",
+      "contextAnchor": "GTA SA Toolkit",
+      "contextAfter": "."
+    },
+    "installWizard": {
+      "eyebrow": "مركز الأدوات",
+      "title": "إعداد أندرويد كامل",
+      "description": "بعد التثبيت، استخدم باحث الأكواد ومكتبة الحفظ ودليل المهمات من نفس الأدوات.",
+      "ctaPrimary": "GTA Toolkit Pro",
+      "ctaSecondary": "GTA SA Cheats & Tools",
+      "contextBefore": "بعد وضع APK و OBB، استكشف بقية",
+      "contextAnchor": "GTA Toolkit Pro",
+      "contextAfter": " على الصفحة الرئيسية."
+    }
+  },
   "notFound": {
     "title": "الصفحة غير موجودة",
     "description": "هذا الحي من سان أندرياس غير موجود.",

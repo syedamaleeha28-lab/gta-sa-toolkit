@@ -2,6 +2,7 @@ import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
 import { PageShell } from "@/components/ui/PageShell";
 import { InstallWizard } from "@/components/wizard/InstallWizard";
+import { ToolkitPromoCta, ToolkitContextLink } from "@/components/promo/ToolkitPromo";
 import { buildPageMetadata } from "@/lib/metadata";
 
 export async function generateMetadata({
@@ -30,6 +31,8 @@ export default async function InstallWizardPage({
 
   return (
     <PageShell title={t("title")} description={t("description")}>
+      <ToolkitPromoCta locale={locale} variant="installWizard" />
+      <ToolkitContextLink locale={locale} variant="installWizard" />
       <InstallWizard />
     </PageShell>
   );

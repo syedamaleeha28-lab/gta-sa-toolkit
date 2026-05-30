@@ -5,6 +5,7 @@ import { FeaturesGrid } from "@/components/home/FeaturesGrid";
 import { Testimonials } from "@/components/home/Testimonials";
 import { FeaturedBlog } from "@/components/home/FeaturedBlog";
 import { OfficialResources } from "@/components/home/OfficialResources";
+import { ToolkitHomeHub } from "@/components/promo/ToolkitHomeHub";
 
 export default async function HomePage({
   params,
@@ -17,6 +18,7 @@ export default async function HomePage({
   return (
     <>
       <Hero />
+      <ToolkitHomeHub locale={locale} />
       <StatsBar />
       <FeaturesGrid />
       <OfficialResources />

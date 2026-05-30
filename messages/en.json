@@ -178,6 +178,60 @@
     "backlinkLabel": "GTA Sanad",
     "intro": "These external resources complement the tools available in this toolkit."
   },
+  "toolkitPromo": {
+    "home": {
+      "eyebrow": "All-in-one hub",
+      "title": "GTA San Andreas Toolkit — Your Complete Companion",
+      "description": "Cheat codes, Android install guides, mission walkthroughs, compatibility checks, and troubleshooting — everything in one place.",
+      "contextBefore": "Start with the",
+      "contextAnchor": "GTA SA Toolkit",
+      "contextAfter": " to explore every tool built for mobile players.",
+      "linkCheats": "GTA SA Cheats & Tools",
+      "linkMissions": "Mission Guides",
+      "linkInstall": "Android Install Guide",
+      "linkTroubleshooting": "Troubleshooting Center"
+    },
+    "cheats": {
+      "eyebrow": "Toolkit hub",
+      "title": "More Than Cheat Codes",
+      "description": "The GTA San Andreas Toolkit also includes install wizards, save libraries, version comparisons, and mission walkthroughs.",
+      "ctaPrimary": "GTA San Andreas Toolkit",
+      "ctaSecondary": "GTA SA Companion Tool",
+      "contextBefore": "Need install help or mission tips too? Visit the",
+      "contextAnchor": "GTA SA Cheats & Tools",
+      "contextAfter": " homepage for the full toolkit."
+    },
+    "missions": {
+      "eyebrow": "Toolkit hub",
+      "title": "Stuck on a Mission?",
+      "description": "Pair these walkthroughs with cheat finders, compatibility checks, and troubleshooting guides from the main toolkit.",
+      "ctaPrimary": "GTA SA Toolkit",
+      "ctaSecondary": "GTA San Andreas Toolkit",
+      "contextBefore": "For cheats, installs, and device checks alongside guides, open the",
+      "contextAnchor": "GTA SA Companion Tool",
+      "contextAfter": " on the toolkit homepage."
+    },
+    "troubleshooting": {
+      "eyebrow": "Toolkit hub",
+      "title": "Fix Issues Faster",
+      "description": "Combine these fixes with the install wizard, OBB guides, and compatibility checker in one place.",
+      "ctaPrimary": "GTA San Andreas Toolkit",
+      "ctaSecondary": "GTA SA Toolkit",
+      "contextBefore": "Many fixes work best alongside the install and compatibility tools on the",
+      "contextAnchor": "GTA SA Toolkit",
+      "contextAfter": " hub."
+    },
+    "installWizard": {
+      "eyebrow": "Toolkit hub",
+      "title": "Complete Android Setup",
+      "description": "After installing, use cheat finders, save libraries, and mission guides from the same toolkit.",
+      "ctaPrimary": "GTA Toolkit Pro",
+      "ctaSecondary": "GTA SA Cheats & Tools",
+      "contextBefore": "Once APK and OBB are in place, explore the rest of the",
+      "contextAnchor": "GTA Toolkit Pro",
+      "contextAfter": " on the main toolkit page."
+    }
+  },
   "notFound": {
     "title": "Page Not Found",
     "description": "This block of San Andreas doesn't exist.",
