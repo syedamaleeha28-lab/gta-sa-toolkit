@@ -39,6 +39,10 @@ export const OFFICIAL_RESOURCES = [
 
 export const OG_IMAGE = "/gtasanad-logo.png";
 
+/** Google Search Console site verification token */
+export const GOOGLE_SITE_VERIFICATION =
+  "SgZAGMRpBrNF-QVfEJt0XJkUieZ2rF3SmG1nLUQ5eHU";
+
 export const NAV_LINKS = [
   { href: "/cheats", key: "cheats" },
   { href: "/install-wizard", key: "installWizard" },

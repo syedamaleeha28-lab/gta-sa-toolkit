@@ -14,6 +14,7 @@ import {
   OG_IMAGE,
   LOGO_WIDTH,
   LOGO_HEIGHT,
+  GOOGLE_SITE_VERIFICATION,
 } from "@/lib/constants";
 import "../globals.css";
 
@@ -45,6 +46,9 @@ export async function generateMetadata({
       template: `%s | ${SITE_NAME}`,
     },
     description: SITE_DESCRIPTION,
+    verification: {
+      google: GOOGLE_SITE_VERIFICATION,
+    },
     icons: {
       icon: OG_IMAGE,
       apple: OG_IMAGE,
