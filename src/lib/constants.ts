@@ -1,6 +1,7 @@
 export const SITE_NAME = "GTA San Andreas Toolkit";
+export const PRODUCTION_SITE_URL = "https://gta-sa-toolkit.vercel.app";
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+  process.env.NEXT_PUBLIC_SITE_URL ?? PRODUCTION_SITE_URL;
 export const SITE_DESCRIPTION =
   "Premium GTA San Andreas toolkit — cheat codes, Android install wizard, compatibility checker, mission guides, and more.";
 
