@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">GTA SA Toolkit</string>
+    <string name="title_activity_main">GTA SA Toolkit</string>
+    <string name="package_name">org.gtasanad.toolkit</string>
+    <string name="custom_url_scheme">org.gtasanad.toolkit</string>
+</resources>

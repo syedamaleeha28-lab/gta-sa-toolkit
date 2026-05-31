@@ -236,5 +236,123 @@
     "title": "Page Not Found",
     "description": "This block of San Andreas doesn't exist.",
     "home": "Back to Home"
+  },
+  "privacyPolicy": {
+    "metaTitle": "Privacy Policy",
+    "metaDescription": "GTA SA Toolkit privacy policy — how we collect, use, and protect your data. Covers analytics, cookies, Google Play compliance, children's privacy, and contact details for gtasanadapk@gmail.com.",
+    "lastUpdated": "Last updated: May 29, 2026",
+    "intro": "This Privacy Policy describes how GTA SA Toolkit (\"we,\" \"us,\" or \"our\") collects, uses, and protects information when you use our website at gtasanad.org, our web application, and our Android mobile application (collectively, the \"Service\"). By using the Service, you agree to the practices described in this policy.",
+    "sections": {
+      "informationCollection": {
+        "title": "1. Information Collection",
+        "intro": "GTA SA Toolkit is designed with privacy in mind. We do not require you to create an account, and we do not operate user registration or login systems.",
+        "items": [
+          "We do not collect personal information such as your name, postal address, or payment details through the Service.",
+          "Favorites (saved cheats and guides) are stored locally on your device using browser or app local storage and are not transmitted to our servers.",
+          "Device compatibility checks (RAM, storage, Android version) are processed locally in your browser or app and are not sent to us.",
+          "If you contact us by email, we receive the information you voluntarily provide (such as your email address and message content) solely to respond to your inquiry.",
+          "When you access the web version, our hosting provider may automatically collect standard server logs (e.g., IP address, browser type, access time) as described in Section 4."
+        ],
+        "outro": "We do not sell, rent, or trade your personal information to third parties for marketing purposes."
+      },
+      "analyticsUsage": {
+        "title": "2. Analytics Usage",
+        "intro": "The Service includes a local analytics dashboard that helps you track your own usage within the app.",
+        "items": [
+          "Analytics data (page views, cheat copies, category preferences) is stored exclusively on your device using localStorage or equivalent app storage.",
+          "We do not use third-party analytics SDKs such as Google Analytics, Firebase Analytics, or similar tracking services within the app.",
+          "Aggregated usage statistics are never uploaded to our servers or shared with advertisers.",
+          "You can clear your local analytics data at any time through the Analytics page or by clearing app/browser storage."
+        ],
+        "outro": "Because analytics remain on your device, uninstalling the app or clearing site data will permanently remove this information."
+      },
+      "cookies": {
+        "title": "3. Cookies",
+        "intro": "GTA SA Toolkit uses minimal storage technologies to provide core functionality.",
+        "items": [
+          "Local storage and session storage are used to persist favorites, language preferences, and local analytics on your device.",
+          "We do not use advertising cookies or cross-site tracking cookies.",
+          "We do not use cookies to build profiles for targeted advertising.",
+          "The Android app does not set traditional browser cookies; it uses on-device storage through the WebView sandbox."
+        ],
+        "outro": "You can disable or clear cookies and local storage through your browser or device settings, though some features (favorites, analytics) may not function without them."
+      },
+      "thirdPartyServices": {
+        "title": "4. Third-Party Services",
+        "intro": "We rely on a limited number of third-party services to operate the Service:",
+        "items": [
+          "Hosting providers (e.g., Vercel) may process technical data necessary to deliver the web application, subject to their own privacy policies.",
+          "Google Play Store distributes our Android app and may collect data according to Google's Privacy Policy when you download or update the app.",
+          "External websites such as gtasanad.org are linked for additional GTA San Andreas resources; those sites operate under their own privacy policies.",
+          "We do not integrate social media login, payment processors, or advertising networks into the core Service."
+        ],
+        "outro": "We encourage you to review the privacy policies of any third-party services you interact with through links in the Service."
+      },
+      "googlePlayCompliance": {
+        "title": "5. Google Play Compliance",
+        "intro": "Our Android app, GTA SA Toolkit, is published on Google Play and complies with Google Play Developer Program policies and the Google Play Data Safety requirements.",
+        "items": [
+          "The app does not collect personal or sensitive user data for transmission to our servers.",
+          "No data is sold or shared with third parties for advertising or marketing.",
+          "The app requests only permissions necessary for core functionality (network access for external resource links; local storage for favorites and analytics).",
+          "Data safety declarations on Google Play accurately reflect that user data is stored locally on the device.",
+          "Users may request data deletion by clearing app storage or uninstalling the application."
+        ],
+        "outro": "For questions about our Google Play data practices, contact us using the information in Section 10."
+      },
+      "dataSecurity": {
+        "title": "6. Data Security",
+        "intro": "We implement reasonable measures to protect information associated with the Service.",
+        "items": [
+          "The web application is served over HTTPS to encrypt data in transit.",
+          "Locally stored favorites and analytics remain on your device and are protected by your device's operating system security.",
+          "We do not maintain a centralized database of user favorites, analytics, or personal profiles.",
+          "While no method of electronic storage is 100% secure, our minimal data collection model reduces exposure to breaches."
+        ],
+        "outro": "If you believe your interaction with the Service has been compromised, please contact us immediately at the email below."
+      },
+      "childrensPrivacy": {
+        "title": "7. Children's Privacy",
+        "intro": "GTA SA Toolkit is a general-audience utility app and is not directed at children under the age of 13 (or the applicable age of digital consent in your jurisdiction).",
+        "items": [
+          "We do not knowingly collect personal information from children under 13.",
+          "The Service does not include age-gated registration or accounts.",
+          "GTA San Andreas is rated Mature (17+) by the ESRB; parents and guardians should supervise minors' use of game-related content.",
+          "If you believe a child has provided us with personal information, please contact us and we will promptly delete it."
+        ],
+        "outro": "We comply with the U.S. Children's Online Privacy Protection Act (COPPA) and similar international regulations where applicable."
+      },
+      "externalLinks": {
+        "title": "8. External Links",
+        "intro": "The Service contains links to third-party websites, including our official website and partner resources.",
+        "items": [
+          "Links to gtasanad.org and other external sites open in your browser or in-app browser and are subject to those sites' privacy policies.",
+          "We are not responsible for the content, privacy practices, or security of third-party websites.",
+          "Clicking an external link may allow the destination site to collect information according to its own policy.",
+          "We recommend reviewing the privacy policy of any external site before providing personal information."
+        ],
+        "outro": "Inclusion of a link does not imply endorsement of the linked site's data practices."
+      },
+      "changesToPolicy": {
+        "title": "9. Changes to This Privacy Policy",
+        "intro": "We may update this Privacy Policy from time to time to reflect changes in our practices, legal requirements, or Google Play policies.",
+        "items": [
+          "The \"Last updated\" date at the top of this page indicates when the policy was last revised.",
+          "Material changes will be posted on this page and, where appropriate, noted within the app or on gtasanad.org.",
+          "Continued use of the Service after changes constitutes acceptance of the updated policy.",
+          "We encourage you to review this page periodically."
+        ],
+        "outro": "If you do not agree with any updated terms, please discontinue use of the Service."
+      },
+      "contactInformation": {
+        "title": "10. Contact Information",
+        "intro": "If you have questions, concerns, or requests regarding this Privacy Policy or your data, please contact us:",
+        "appLabel": "App",
+        "appName": "GTA SA Toolkit",
+        "websiteLabel": "Website",
+        "emailLabel": "Email",
+        "outro": "We aim to respond to privacy-related inquiries within a reasonable timeframe. For Google Play-related data requests, please include your Google account email and a description of your request."
+      }
+    }
   }
 }

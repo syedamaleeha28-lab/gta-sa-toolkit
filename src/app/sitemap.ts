@@ -2,6 +2,8 @@ import type { MetadataRoute } from "next";
 import { PRODUCTION_SITE_URL, STATIC_ROUTES } from "@/lib/constants";
 import { blogPosts } from "@/data/blog";
 
+export const dynamic = "force-static";
+
 const LOCALES = ["en", "ar"] as const;
 
 function sitemapUrl(locale: string, path: string): string {

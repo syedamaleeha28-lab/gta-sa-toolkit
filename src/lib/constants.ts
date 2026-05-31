@@ -63,7 +63,7 @@ export const FOOTER_LINKS = [
   { href: "/resources", key: "resources" },
   { href: "/about", key: "about" },
   { href: "/contact", key: "contact" },
-  { href: "/privacy", key: "privacy" },
+  { href: "/privacy-policy", key: "privacy" },
   { href: "/disclaimer", key: "disclaimer" },
 ] as const;
 
@@ -82,6 +82,7 @@ export const STATIC_ROUTES = [
   "/resources",
   "/about",
   "/contact",
+  "/privacy-policy",
   "/privacy",
   "/disclaimer",
 ] as const;

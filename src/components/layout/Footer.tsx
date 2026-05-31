@@ -78,9 +78,24 @@ export function Footer() {
         </div>
 
         <div className="mt-8 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 sm:flex-row">
-          <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} {SITE_NAME}. {t("rights")}
-          </p>
+          <div className="flex flex-col items-center gap-2 sm:items-start">
+            <p className="text-sm text-gray-500">
+              © {new Date().getFullYear()} {SITE_NAME}. {t("rights")}
+            </p>
+            <div className="flex flex-wrap justify-center gap-x-4 gap-y-1 text-sm sm:justify-start">
+              {FOOTER_LINKS.filter((link) =>
+                ["/privacy-policy", "/disclaimer", "/contact"].includes(link.href),
+              ).map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="text-gray-400 hover:text-neon-green"
+                >
+                  {t(link.key)}
+                </Link>
+              ))}
+            </div>
+          </div>
           <div className="flex gap-4">
             <a
               href="https://github.com"

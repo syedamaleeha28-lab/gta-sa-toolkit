@@ -61,6 +61,15 @@
   .prose-legal p {
     @apply leading-relaxed;
   }
+  .prose-legal ul {
+    @apply list-disc space-y-2 pl-5;
+  }
+  .prose-legal li {
+    @apply leading-relaxed;
+  }
+  .prose-legal strong {
+    @apply font-semibold text-white;
+  }
 }
 
 @layer utilities {
