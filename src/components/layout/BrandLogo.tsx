@@ -1,11 +1,7 @@
 import Image from "next/image";
 import { Link } from "@/i18n/routing";
-import {
-  LOGO_ALT,
-  LOGO_PATH,
-  LOGO_WIDTH,
-  LOGO_HEIGHT,
-} from "@/lib/constants";
+import toolkitIcon from "@/assets/toolkit-icon.png";
+import { LOGO_ALT } from "@/lib/constants";
 import { cn } from "@/lib/cn";
 
 interface BrandLogoProps {
@@ -27,10 +23,10 @@ export function BrandLogo({
       aria-label={LOGO_ALT}
     >
       <Image
-        src={LOGO_PATH}
+        src={toolkitIcon}
         alt={LOGO_ALT}
-        width={LOGO_WIDTH}
-        height={LOGO_HEIGHT}
+        width={512}
+        height={512}
         priority={priority}
         className={cn(
           "w-auto rounded-xl object-contain",
