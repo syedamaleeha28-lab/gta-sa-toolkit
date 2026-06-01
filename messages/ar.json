@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "أدوات GTA سان أندرياس",
+    "siteName": "GTA SA Toolkit",
     "tagline": "رفيقك الأمثل لـ GTA SA على أندرويد",
     "search": "بحث...",
     "copy": "نسخ",
@@ -13,7 +13,7 @@
     "back": "رجوع",
     "loading": "جاري التحميل...",
     "noResults": "لا توجد نتائج",
-    "disclaimer": "مصدر غير رسمي للمعجبين. غير تابع لـ Rockstar Games."
+    "disclaimer": "هذا التطبيق أداة مرافقة مستقلة من صنع المعجبين وغير تابع أو معتمد أو مرتبط بـ Rockstar Games أو Take-Two Interactive."
   },
   "nav": {
     "home": "الرئيسية",
@@ -34,12 +34,12 @@
     "privacy": "سياسة الخصوصية",
     "disclaimer": "إخلاء المسؤولية",
     "rights": "جميع الحقوق محفوظة.",
-    "description": "أدوات متميزة للاعبي GTA San Andreas على أندرويد.",
+    "description": "أداة مرافقة مستقلة للاعبي GTA SA على أندرويد — أدلة وأكواد ومراجع.",
     "poweredBy": "مدعوم من",
     "resources": "الموارد"
   },
   "home": {
-    "heroTitle": "GTA سان أندرياس",
+    "heroTitle": "GTA SA",
     "heroSubtitle": "الأدوات",
     "heroDescription": "أكواد الغش، أدلة التثبيت، فحص التوافق، شرح المهمات — كل ما تحتاجه في تطبيق واحد.",
     "ctaCheats": "ابحث عن الأكواد",
@@ -55,17 +55,17 @@
     "blogTitle": "أحدث المقالات",
     "blogSubtitle": "نصائح وأدلة وتحديثات",
     "officialResources": {
-      "title": "موارد GTA الرسمية",
-      "subtitle": "أدلة وتحميلات موثوقة من GTASanad.org",
-      "gtaSaApk": "GTA San Andreas APK",
-      "gtaSaCheats": "أكواد غش GTA San Andreas",
-      "gtaSaInstall": "دليل تثبيت GTA San Andreas",
+      "title": "موارد شريكة",
+      "subtitle": "أدلة ومراجع خارجية من GTASanad.org",
+      "gtaSaApk": "GTA SA APK",
+      "gtaSaCheats": "أكواد غش GTA SA",
+      "gtaSaInstall": "دليل تثبيت GTA SA",
       "gtaVcApk": "GTA Vice City APK"
     }
   },
   "cheats": {
     "title": "باحث أكواد الغش",
-    "description": "ابحث وانسخ أكواد GTA San Andreas فوراً.",
+    "description": "ابحث وانسخ أكواد GTA SA فوراً.",
     "searchPlaceholder": "ابحث بالاسم أو الكود...",
     "copySuccess": "تم نسخ الكود!",
     "copyError": "فشل النسخ",
@@ -159,7 +159,7 @@
   },
   "blog": {
     "title": "المدونة",
-    "description": "أدلة ونصائح وأخبار لـ GTA San Andreas.",
+    "description": "أدلة ونصائح وأخبار لـ GTA SA.",
     "featured": "مميز",
     "readMore": "اقرأ المزيد",
     "related": "مقالات ذات صلة"
@@ -172,16 +172,16 @@
   },
   "resources": {
     "title": "الموارد",
-    "description": "موارد GTA San Andreas الموصى بها — تحميلات وتعديلات وملفات حفظ وأدلة تثبيت.",
-    "sectionTitle": "موارد GTA San Andreas الموصى بها",
-    "backlinkBefore": "لتحميلات GTA San Andreas والتعديلات وملفات الحفظ وأدلة التثبيت، قم بزيارة",
+    "description": "موارد GTA SA الموصى بها — تحميلات وتعديلات وملفات حفظ وأدلة تثبيت.",
+    "sectionTitle": "موارد GTA SA الموصى بها",
+    "backlinkBefore": "لتحميلات GTA SA والتعديلات وملفات الحفظ وأدلة التثبيت، قم بزيارة",
     "backlinkLabel": "GTA Sanad",
     "intro": "تكمل هذه الموارد الخارجية الأدوات المتاحة في هذا الموقع."
   },
   "toolkitPromo": {
     "home": {
       "eyebrow": "مركز شامل",
-      "title": "GTA San Andreas Toolkit — رفيقك الكامل",
+      "title": "GTA SA Toolkit — رفيقك الكامل",
       "description": "أكواد الغش، أدلة تثبيت أندرويد، شرح المهمات، فحص التوافق، واستكشاف الأخطاء — كل شيء في مكان واحد.",
       "contextBefore": "ابدأ مع",
       "contextAnchor": "GTA SA Toolkit",
@@ -194,8 +194,8 @@
     "cheats": {
       "eyebrow": "مركز الأدوات",
       "title": "أكثر من أكواد الغش",
-      "description": "يتضمن GTA San Andreas Toolkit أيضاً معالج التثبيت ومكتبة الحفظ ومقارنة الإصدارات وشرح المهمات.",
-      "ctaPrimary": "GTA San Andreas Toolkit",
+      "description": "يتضمن GTA SA Toolkit أيضاً معالج التثبيت ومكتبة الحفظ ومقارنة الإصدارات وشرح المهمات.",
+      "ctaPrimary": "GTA SA Toolkit",
       "ctaSecondary": "GTA SA Companion Tool",
       "contextBefore": "تحتاج مساعدة في التثبيت أو المهمات؟ زُر",
       "contextAnchor": "GTA SA Cheats & Tools",
@@ -206,7 +206,7 @@
       "title": "عالق في مهمة؟",
       "description": "اجمع هذه الشروحات مع باحث الأكواد وفحص التوافق ودليل استكشاف الأخطاء.",
       "ctaPrimary": "GTA SA Toolkit",
-      "ctaSecondary": "GTA San Andreas Toolkit",
+      "ctaSecondary": "GTA SA Toolkit",
       "contextBefore": "للأكواد والتثبيت وفحص الجهاز مع الأدلة، افتح",
       "contextAnchor": "GTA SA Companion Tool",
       "contextAfter": " على الصفحة الرئيسية."
@@ -215,7 +215,7 @@
       "eyebrow": "مركز الأدوات",
       "title": "إصلاح أسرع للمشاكل",
       "description": "اجمع هذه الحلول مع معالج التثبيت وأدلة OBB وفحص التوافق.",
-      "ctaPrimary": "GTA San Andreas Toolkit",
+      "ctaPrimary": "GTA SA Toolkit",
       "ctaSecondary": "GTA SA Toolkit",
       "contextBefore": "كثير من الإصلاحات تعمل أفضل مع أدوات التثبيت على",
       "contextAnchor": "GTA SA Toolkit",
@@ -283,7 +283,7 @@
         "items": [
           "قد تعالج مزودات الاستضافة (مثل Vercel) بيانات تقنية ضرورية لتقديم تطبيق الويب، وفقاً لسياسات الخصوصية الخاصة بها.",
           "يوزّع Google Play Store تطبيق أندرويد وقد يجمع بيانات وفقاً لسياسة خصوصية Google عند التحميل أو التحديث.",
-          "المواقع الخارجية مثل gtasanad.org مرتبطة لموارد GTA San Andreas إضافية؛ تخضع لتلك المواقع لسياسات خصوصية مستقلة.",
+          "المواقع الخارجية مثل gtasanad.org مرتبطة لموارد GTA SA إضافية؛ تخضع لتلك المواقع لسياسات خصوصية مستقلة.",
           "لا ندمج تسجيل دخول وسائل التواصل أو معالجات الدفع أو شبكات الإعلانات في الخدمة الأساسية."
         ],
         "outro": "نشجعك على مراجعة سياسات الخصوصية لأي خدمات طرف ثالث تتفاعل معها عبر روابط في الخدمة."
@@ -317,7 +317,7 @@
         "items": [
           "لا نجمع عن قصد معلومات شخصية من أطفال دون 13 عاماً.",
           "لا تتضمن الخدمة تسجيلاً أو حسابات مقيدة بالعمر.",
-          "GTA San Andreas مصنفة للبالغين (17+) من ESRB؛ يجب على الأولياء الإشراف على استخدام القاصرين لمحتوى اللعبة.",
+          "GTA SA مصنفة للبالغين (17+) من ESRB؛ يجب على الأولياء الإشراف على استخدام القاصرين لمحتوى اللعبة.",
           "إذا اعتقدت أن طفلاً قد زودنا بمعلومات شخصية، يرجى التواصل معنا وسنحذفها فوراً."
         ],
         "outro": "نلتزم بقانون COPPA الأمريكي ولوائح الخصوصية الدولية المماثلة حيثما ينطبق."

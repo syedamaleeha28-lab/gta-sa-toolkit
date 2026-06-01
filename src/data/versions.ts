@@ -3,7 +3,7 @@ import type { GameVersion } from "@/types";
 export const gameVersions: GameVersion[] = [
   {
     id: "sa-311",
-    name: "GTA San Andreas",
+    name: "GTA SA",
     version: "2.11.311",
     size: "2.4 GB (APK + OBB)",
     features: [
@@ -19,7 +19,7 @@ export const gameVersions: GameVersion[] = [
   },
   {
     id: "sa-277",
-    name: "GTA San Andreas",
+    name: "GTA SA",
     version: "2.11.277",
     size: "2.1 GB (APK + OBB)",
     features: [

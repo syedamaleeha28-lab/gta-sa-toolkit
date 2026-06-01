@@ -69,7 +69,7 @@ export const wizardErrors: WizardError[] = [
     id: "e3",
     title: "License verification failed",
     solution:
-      "Install official Rockstar version from Play Store, or use a clean mod APK with valid license patch.",
+      "Install the licensed game from Google Play, or use a clean APK build with valid license verification.",
   },
   {
     id: "e4",

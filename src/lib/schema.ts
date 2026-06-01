@@ -13,7 +13,7 @@ export function getPublisherLogoUrl(): string {
   return `${SITE_URL}${LOGO_PATH}`;
 }
 
-/** GTA Sanad logo as schema.org ImageObject */
+/** Toolkit app icon as schema.org ImageObject */
 export function publisherLogoImageObject() {
   const logoUrl = getPublisherLogoUrl();
   return {
@@ -67,10 +67,10 @@ export function buildSoftwareApplicationSchema(locale: string) {
   return {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    name: "GTA San Andreas",
+    name: SITE_NAME,
     description:
-      "Grand Theft Auto: San Andreas for Android — cheat codes, installation guides, and version comparison.",
-    applicationCategory: "GameApplication",
+      "Independent GTA SA companion for Android — cheat codes, installation guides, and version comparison.",
+    applicationCategory: "UtilitiesApplication",
     operatingSystem: "Android",
     softwareVersion: recommended.version,
     fileSize: recommended.size,

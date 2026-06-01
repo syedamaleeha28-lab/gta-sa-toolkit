@@ -12,7 +12,7 @@ export function calculateCompatibility(
 
   let graphics: GraphicsSetting = "Low";
   let compatibleVersion = "GTA SA 2.11.277 (Lite)";
-  let verdict = "Your device can run GTA San Andreas with reduced settings.";
+  let verdict = "Your device can run GTA SA with reduced settings.";
 
   if (score >= 85) {
     graphics = "High";

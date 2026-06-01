@@ -2,6 +2,7 @@ import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
 import { LegalLayout } from "@/components/legal/LegalLayout";
 import { buildPageMetadata } from "@/lib/metadata";
+import { TRADEMARK_DISCLAIMER } from "@/lib/constants";
 
 export async function generateMetadata({
   params,
@@ -28,18 +29,15 @@ export default async function DisclaimerPage({
 
   return (
     <LegalLayout title={t("disclaimerTitle")}>
+      <p>{TRADEMARK_DISCLAIMER}</p>
       <p>
-        This site is an unofficial fan resource and is not affiliated with,
-        endorsed by, or connected to Rockstar Games, Take-Two Interactive, or
-        any official GTA brand.
+        This companion app does not distribute, sell, or license the game. Game
+        names and related terms are used only for descriptive reference to help
+        players find guides and tools.
       </p>
       <p>
-        GTA San Andreas is a trademark of Rockstar Games. All game content
-        references are for educational purposes.
-      </p>
-      <p>
-        Download links and save files are placeholders. Always obtain games from
-        official sources where available.
+        Download links and save files are educational references. Always obtain
+        games from legitimate sources where available.
       </p>
     </LegalLayout>
   );

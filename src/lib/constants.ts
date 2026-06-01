@@ -1,4 +1,4 @@
-export const SITE_NAME = "GTA San Andreas Toolkit";
+export const SITE_NAME = "GTA SA Toolkit";
 export const PRODUCTION_SITE_URL = "https://gta-sa-toolkit.vercel.app";
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? PRODUCTION_SITE_URL;
@@ -8,20 +8,22 @@ export function getToolkitHomeUrl(locale = "en"): string {
   return `${PRODUCTION_SITE_URL}/${locale}`;
 }
 export const SITE_DESCRIPTION =
-  "Premium GTA San Andreas toolkit — cheat codes, Android install wizard, compatibility checker, mission guides, and more.";
+  "Independent GTA SA companion — cheat codes, Android install wizard, compatibility checker, mission guides, and troubleshooting.";
+
+export const TRADEMARK_DISCLAIMER =
+  "This application is an independent fan-made companion tool and is not affiliated with, endorsed by, or associated with Rockstar Games or Take-Two Interactive.";
 
 export const PUBLISHER = {
   name: "GTASanad.org",
   alternateName: "GTA Sanad",
   url: "https://gtasanad.org",
-  /** Canonical logo on main site (upload gtasanad-logo.webp) */
   logo: "https://gtasanad.org/gtasanad-logo.webp",
 } as const;
 
-export const LOGO_PATH = "/gtasanad-logo.png";
-export const LOGO_ALT = "GTA Sanad Logo";
-export const LOGO_WIDTH = 240;
-export const LOGO_HEIGHT = 80;
+export const LOGO_PATH = "/app-icon.png";
+export const LOGO_ALT = "GTA SA Toolkit";
+export const LOGO_WIDTH = 512;
+export const LOGO_HEIGHT = 512;
 
 export const OFFICIAL_RESOURCES = [
   {
@@ -42,7 +44,7 @@ export const OFFICIAL_RESOURCES = [
   },
 ] as const;
 
-export const OG_IMAGE = "/gtasanad-logo.png";
+export const OG_IMAGE = "/app-icon.png";
 
 /** Google Search Console site verification token */
 export const GOOGLE_SITE_VERIFICATION =

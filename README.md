@@ -1,6 +1,6 @@
-# GTA Toolkit Pro
+# GTA SA Toolkit
 
-A modern toolkit for GTA San Andreas players featuring cheat codes, device compatibility checking, installation guides, and version comparison tools.
+An independent companion toolkit for GTA SA on Android — cheat codes, device compatibility checking, installation guides, and version comparison tools.
 
 ## Live Demo
 https://gta-sa-toolkit.vercel.app
@@ -11,12 +11,12 @@ https://gta-sa-toolkit.vercel.app
 
 ## GTA Resources
 
-- [GTA San Andreas APK](https://gtasanad.org)
+- [GTA SA APK Guide](https://gtasanad.org)
 - [GTA Cheat Codes](https://gtasanad.org/gta-san-andreas-cheat-codes-android/)
 - [GTA Vice City APK](https://gtasanad.org/gta-vice-city-mod-apk-1-12-259/)
 - [GTA Toolkit Pro](https://gtasanad.org/gta-toolkit-pro/)
 
-A premium, production-ready SaaS-style web application for GTA San Andreas Android players. Built with Next.js 15, React, TypeScript, Tailwind CSS, and Framer Motion.
+A production-ready companion web app and Android shell for GTA SA players. Built with Next.js 15, React, TypeScript, Tailwind CSS, and Framer Motion.
 
 ![GTA SA Toolkit](public/og-image.svg)
 
@@ -218,7 +218,7 @@ Edit `messages/en.json` and `messages/ar.json`. Keys are grouped by feature name
 
 ## Disclaimer
 
-This is an **unofficial fan resource** and is not affiliated with Rockstar Games or Take-Two Interactive. GTA San Andreas is a trademark of Rockstar Games.
+This is an **independent fan-made companion** and is not affiliated with, endorsed by, or associated with Rockstar Games or Take-Two Interactive.
 
 ## License
 

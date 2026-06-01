@@ -7,7 +7,7 @@ interface PublisherJsonLdProps {
 
 /**
  * Injects Organization, WebApplication, and SoftwareApplication JSON-LD
- * with GTASanad.org (GTA Sanad) as publisher on every page.
+ * with toolkit and partner publisher metadata on every page.
  */
 export function PublisherJsonLd({ locale }: PublisherJsonLdProps) {
   return <JsonLd data={buildPagePublisherSchemas(locale)} />;

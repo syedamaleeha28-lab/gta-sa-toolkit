@@ -1,16 +1,15 @@
 import Image from "next/image";
+import { Link } from "@/i18n/routing";
 import {
   LOGO_ALT,
   LOGO_PATH,
   LOGO_WIDTH,
   LOGO_HEIGHT,
-  PUBLISHER,
 } from "@/lib/constants";
-import { ExternalLink } from "@/components/ui/ExternalLink";
 import { cn } from "@/lib/cn";
 
 interface BrandLogoProps {
-  /** sm: 40px height (footer), md: 44–56px (header, responsive) */
+  /** sm: 40px (footer), md: 44–56px (header, responsive) */
   size?: "sm" | "md";
   priority?: boolean;
   className?: string;
@@ -22,9 +21,10 @@ export function BrandLogo({
   className,
 }: BrandLogoProps) {
   return (
-    <ExternalLink
-      href={PUBLISHER.url}
+    <Link
+      href="/"
       className={cn("inline-flex shrink-0 items-center", className)}
+      aria-label={LOGO_ALT}
     >
       <Image
         src={LOGO_PATH}
@@ -33,11 +33,12 @@ export function BrandLogo({
         height={LOGO_HEIGHT}
         priority={priority}
         className={cn(
-          "w-auto object-contain",
-          size === "sm" && "h-10 max-h-[40px]",
-          size === "md" && "h-10 max-h-[40px] sm:h-12 sm:max-h-[48px] md:h-14 md:max-h-[56px]"
+          "w-auto rounded-xl object-contain",
+          size === "sm" && "h-10 max-h-[40px] w-10",
+          size === "md" &&
+            "h-10 max-h-[40px] w-10 sm:h-12 sm:max-h-[48px] sm:w-12 md:h-14 md:max-h-[56px] md:w-14",
         )}
       />
-    </ExternalLink>
+    </Link>
   );
 }

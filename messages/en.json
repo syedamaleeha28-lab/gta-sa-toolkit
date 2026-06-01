@@ -1,6 +1,6 @@
 {
   "common": {
-    "siteName": "GTA San Andreas Toolkit",
+    "siteName": "GTA SA Toolkit",
     "tagline": "Your ultimate GTA SA companion for Android",
     "search": "Search...",
     "copy": "Copy",
@@ -13,7 +13,7 @@
     "back": "Back",
     "loading": "Loading...",
     "noResults": "No results found",
-    "disclaimer": "Unofficial fan resource. Not affiliated with Rockstar Games."
+    "disclaimer": "This application is an independent fan-made companion tool and is not affiliated with, endorsed by, or associated with Rockstar Games or Take-Two Interactive."
   },
   "nav": {
     "home": "Home",
@@ -34,12 +34,12 @@
     "privacy": "Privacy Policy",
     "disclaimer": "Disclaimer",
     "rights": "All rights reserved.",
-    "description": "Premium toolkit for GTA San Andreas Android players.",
+    "description": "Independent companion toolkit for GTA SA on Android — guides, cheats, and reference tools.",
     "poweredBy": "Powered by",
     "resources": "Resources"
   },
   "home": {
-    "heroTitle": "GTA San Andreas",
+    "heroTitle": "GTA SA",
     "heroSubtitle": "Toolkit",
     "heroDescription": "Cheat codes, install guides, compatibility checks, mission walkthroughs — everything you need in one premium app.",
     "ctaCheats": "Find Cheats",
@@ -55,17 +55,17 @@
     "blogTitle": "Latest from the Blog",
     "blogSubtitle": "Tips, guides, and updates",
     "officialResources": {
-      "title": "Official GTA Resources",
-      "subtitle": "Trusted guides and downloads from GTASanad.org",
-      "gtaSaApk": "GTA San Andreas APK",
-      "gtaSaCheats": "GTA San Andreas Cheat Codes",
-      "gtaSaInstall": "GTA San Andreas Installation Guide",
+      "title": "Partner Resources",
+      "subtitle": "External guides and references from GTASanad.org",
+      "gtaSaApk": "GTA SA APK Guide",
+      "gtaSaCheats": "GTA SA Cheat Codes",
+      "gtaSaInstall": "GTA SA Installation Guide",
       "gtaVcApk": "GTA Vice City APK"
     }
   },
   "cheats": {
     "title": "Cheat Code Finder",
-    "description": "Search and copy GTA San Andreas cheat codes instantly.",
+    "description": "Search and copy GTA SA cheat codes instantly.",
     "searchPlaceholder": "Search cheats by name or code...",
     "copySuccess": "Cheat code copied!",
     "copyError": "Failed to copy",
@@ -159,7 +159,7 @@
   },
   "blog": {
     "title": "Blog",
-    "description": "Guides, tips, and news for GTA San Andreas Android.",
+    "description": "Guides, tips, and news for GTA SA on Android.",
     "featured": "Featured",
     "readMore": "Read more",
     "related": "Related Posts"
@@ -172,16 +172,16 @@
   },
   "resources": {
     "title": "Resources",
-    "description": "Recommended GTA San Andreas downloads, mods, save files, and installation guides.",
-    "sectionTitle": "Recommended GTA San Andreas Resources",
-    "backlinkBefore": "For GTA San Andreas downloads, mods, save files, and installation guides, visit",
+    "description": "Recommended GTA SA downloads, mods, save files, and installation guides.",
+    "sectionTitle": "Recommended GTA SA Resources",
+    "backlinkBefore": "For GTA SA downloads, mods, save files, and installation guides, visit",
     "backlinkLabel": "GTA Sanad",
     "intro": "These external resources complement the tools available in this toolkit."
   },
   "toolkitPromo": {
     "home": {
       "eyebrow": "All-in-one hub",
-      "title": "GTA San Andreas Toolkit — Your Complete Companion",
+      "title": "GTA SA Toolkit — Your Complete Companion",
       "description": "Cheat codes, Android install guides, mission walkthroughs, compatibility checks, and troubleshooting — everything in one place.",
       "contextBefore": "Start with the",
       "contextAnchor": "GTA SA Toolkit",
@@ -194,8 +194,8 @@
     "cheats": {
       "eyebrow": "Toolkit hub",
       "title": "More Than Cheat Codes",
-      "description": "The GTA San Andreas Toolkit also includes install wizards, save libraries, version comparisons, and mission walkthroughs.",
-      "ctaPrimary": "GTA San Andreas Toolkit",
+      "description": "GTA SA Toolkit also includes install wizards, save libraries, version comparisons, and mission walkthroughs.",
+      "ctaPrimary": "GTA SA Toolkit",
       "ctaSecondary": "GTA SA Companion Tool",
       "contextBefore": "Need install help or mission tips too? Visit the",
       "contextAnchor": "GTA SA Cheats & Tools",
@@ -206,7 +206,7 @@
       "title": "Stuck on a Mission?",
       "description": "Pair these walkthroughs with cheat finders, compatibility checks, and troubleshooting guides from the main toolkit.",
       "ctaPrimary": "GTA SA Toolkit",
-      "ctaSecondary": "GTA San Andreas Toolkit",
+      "ctaSecondary": "GTA SA Toolkit",
       "contextBefore": "For cheats, installs, and device checks alongside guides, open the",
       "contextAnchor": "GTA SA Companion Tool",
       "contextAfter": " on the toolkit homepage."
@@ -215,7 +215,7 @@
       "eyebrow": "Toolkit hub",
       "title": "Fix Issues Faster",
       "description": "Combine these fixes with the install wizard, OBB guides, and compatibility checker in one place.",
-      "ctaPrimary": "GTA San Andreas Toolkit",
+      "ctaPrimary": "GTA SA Toolkit",
       "ctaSecondary": "GTA SA Toolkit",
       "contextBefore": "Many fixes work best alongside the install and compatibility tools on the",
       "contextAnchor": "GTA SA Toolkit",
@@ -234,7 +234,7 @@
   },
   "notFound": {
     "title": "Page Not Found",
-    "description": "This block of San Andreas doesn't exist.",
+    "description": "This part of the map doesn't exist.",
     "home": "Back to Home"
   },
   "privacyPolicy": {
@@ -283,7 +283,7 @@
         "items": [
           "Hosting providers (e.g., Vercel) may process technical data necessary to deliver the web application, subject to their own privacy policies.",
           "Google Play Store distributes our Android app and may collect data according to Google's Privacy Policy when you download or update the app.",
-          "External websites such as gtasanad.org are linked for additional GTA San Andreas resources; those sites operate under their own privacy policies.",
+          "External websites such as gtasanad.org are linked for additional GTA SA companion resources; those sites operate under their own privacy policies.",
           "We do not integrate social media login, payment processors, or advertising networks into the core Service."
         ],
         "outro": "We encourage you to review the privacy policies of any third-party services you interact with through links in the Service."
@@ -317,7 +317,7 @@
         "items": [
           "We do not knowingly collect personal information from children under 13.",
           "The Service does not include age-gated registration or accounts.",
-          "GTA San Andreas is rated Mature (17+) by the ESRB; parents and guardians should supervise minors' use of game-related content.",
+          "GTA SA is rated Mature (17+) by the ESRB; parents and guardians should supervise minors' use of game-related content.",
           "If you believe a child has provided us with personal information, please contact us and we will promptly delete it."
         ],
         "outro": "We comply with the U.S. Children's Online Privacy Protection Act (COPPA) and similar international regulations where applicable."
