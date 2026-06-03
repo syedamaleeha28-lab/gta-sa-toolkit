@@ -3,7 +3,7 @@ import type { GameVersion } from "@/types";
 export const gameVersions: GameVersion[] = [
   {
     id: "sa-311",
-    name: "GTA SA",
+    name: "Open World Build A",
     version: "2.11.311",
     size: "2.4 GB (APK + OBB)",
     features: [
@@ -19,7 +19,7 @@ export const gameVersions: GameVersion[] = [
   },
   {
     id: "sa-277",
-    name: "GTA SA",
+    name: "Open World Build B",
     version: "2.11.277",
     size: "2.1 GB (APK + OBB)",
     features: [
@@ -33,11 +33,11 @@ export const gameVersions: GameVersion[] = [
   },
   {
     id: "vc",
-    name: "GTA Vice City",
+    name: "Classic City Build",
     version: "1.12",
     size: "1.2 GB (APK + OBB)",
     features: [
-      "80s Miami storyline",
+      "Retro storyline mode",
       "Smaller map size",
       "Lighter performance footprint",
       "Unique radio stations",

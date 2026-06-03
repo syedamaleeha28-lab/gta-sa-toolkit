@@ -2,7 +2,6 @@ import {
   SITE_NAME,
   SITE_URL,
   SITE_DESCRIPTION,
-  PUBLISHER,
   LOGO_PATH,
   LOGO_ALT,
 } from "./constants";
@@ -18,23 +17,21 @@ export function publisherLogoImageObject() {
   const logoUrl = getPublisherLogoUrl();
   return {
     "@type": "ImageObject" as const,
-    "@id": `${PUBLISHER.url}#logo`,
+    "@id": `${SITE_URL}#logo`,
     url: logoUrl,
     contentUrl: logoUrl,
     name: LOGO_ALT,
     caption: LOGO_ALT,
-    sameAs: PUBLISHER.logo,
   };
 }
 
-/** GTASanad.org / GTA Sanad publisher for all structured data */
+/** App publisher organization for structured data */
 export function publisherOrganization() {
   return {
     "@type": "Organization" as const,
-    "@id": `${PUBLISHER.url}#organization`,
-    name: PUBLISHER.name,
-    alternateName: PUBLISHER.alternateName,
-    url: PUBLISHER.url,
+    "@id": `${SITE_URL}#organization`,
+    name: SITE_NAME,
+    url: SITE_URL,
     logo: publisherLogoImageObject(),
   };
 }
@@ -68,8 +65,7 @@ export function buildSoftwareApplicationSchema(locale: string) {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     name: SITE_NAME,
-    description:
-      "Independent GTA SA companion for Android — cheat codes, installation guides, and version comparison.",
+    description: SITE_DESCRIPTION,
     applicationCategory: "UtilitiesApplication",
     operatingSystem: "Android",
     softwareVersion: recommended.version,

@@ -31,13 +31,13 @@ export default async function DisclaimerPage({
     <LegalLayout title={t("disclaimerTitle")}>
       <p>{TRADEMARK_DISCLAIMER}</p>
       <p>
-        This companion app does not distribute, sell, or license the game. Game
-        names and related terms are used only for descriptive reference to help
-        players find guides and tools.
+        This utility does not distribute, sell, or license any commercial game.
+        All guides and reference materials are provided for educational purposes
+        only.
       </p>
       <p>
-        Download links and save files are educational references. Always obtain
-        games from legitimate sources where available.
+        Download links and save file references are educational. Always obtain
+        software from legitimate sources where available.
       </p>
     </LegalLayout>
   );

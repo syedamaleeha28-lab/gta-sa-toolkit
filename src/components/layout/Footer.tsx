@@ -3,13 +3,7 @@
 import { useTranslations } from "next-intl";
 import { Github, Twitter } from "lucide-react";
 import { Link } from "@/i18n/routing";
-import {
-  FOOTER_LINKS,
-  NAV_LINKS,
-  SITE_NAME,
-  PUBLISHER,
-} from "@/lib/constants";
-import { ExternalLink } from "@/components/ui/ExternalLink";
+import { FOOTER_LINKS, NAV_LINKS, SITE_NAME } from "@/lib/constants";
 import { BrandLogo } from "./BrandLogo";
 
 export function Footer() {
@@ -63,18 +57,6 @@ export function Footer() {
               ))}
             </ul>
           </div>
-        </div>
-
-        <div className="mt-8 rounded-xl border border-neon-green/20 bg-neon-green/5 px-6 py-4 text-center">
-          <p className="text-sm text-gray-300">
-            {t("poweredBy")}{" "}
-            <ExternalLink
-              href={PUBLISHER.url}
-              className="font-semibold text-neon-green hover:text-neon-orange"
-            >
-              {PUBLISHER.name}
-            </ExternalLink>
-          </p>
         </div>
 
         <div className="mt-8 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 sm:flex-row">

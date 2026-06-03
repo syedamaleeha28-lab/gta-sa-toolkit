@@ -3,7 +3,7 @@ import type { CompatibilityResult, GraphicsSetting } from "@/types";
 export function calculateCompatibility(
   androidVersion: number,
   ramGB: number,
-  storageGB: number
+  storageGB: number,
 ): CompatibilityResult {
   const ramScore = Math.min(ramGB / 8, 1) * 40;
   const storageScore = Math.min(storageGB / 6, 1) * 30;
@@ -11,20 +11,20 @@ export function calculateCompatibility(
   const score = Math.round(ramScore + storageScore + androidScore);
 
   let graphics: GraphicsSetting = "Low";
-  let compatibleVersion = "GTA SA 2.11.277 (Lite)";
-  let verdict = "Your device can run GTA SA with reduced settings.";
+  let compatibleVersion = "Build 2.11.277 (Lite)";
+  let verdict = "Your device can run the lite build with reduced settings.";
 
   if (score >= 85) {
     graphics = "High";
-    compatibleVersion = "GTA SA 2.11.311 (Recommended)";
-    verdict = "Excellent! Your device is ideal for the latest GTA SA build.";
+    compatibleVersion = "Build 2.11.311 (Recommended)";
+    verdict = "Excellent! Your device is ideal for the latest recommended build.";
   } else if (score >= 60) {
     graphics = "Medium";
-    compatibleVersion = "GTA SA 2.11.311";
+    compatibleVersion = "Build 2.11.311";
     verdict = "Good fit. Use medium graphics for stable performance.";
   } else if (score >= 40) {
     graphics = "Low";
-    compatibleVersion = "GTA SA 2.11.277";
+    compatibleVersion = "Build 2.11.277";
     verdict = "Playable with low graphics. Close background apps.";
   } else {
     graphics = "Low";

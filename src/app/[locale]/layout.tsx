@@ -65,7 +65,7 @@ export async function generateMetadata({
           url: OG_IMAGE,
           width: LOGO_WIDTH,
           height: LOGO_HEIGHT,
-          alt: "GTA SA Toolkit",
+          alt: "SA Toolkit Pro",
         },
       ],
     },

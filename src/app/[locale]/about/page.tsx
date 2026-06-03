@@ -30,13 +30,13 @@ export default async function AboutPage({
   return (
     <LegalLayout title={t("aboutTitle")}>
       <p>
-        {SITE_NAME} is an independent fan-made companion for GTA SA on Android.
-        We provide cheat codes, installation guides, compatibility tools, mission
-        walkthroughs, and troubleshooting resources — not the game itself.
+        {SITE_NAME} is an independent gaming companion utility for Android. We
+        provide reference guides, installation tutorials, device compatibility
+        tools, mission walkthroughs, troubleshooting resources, and gaming tips.
       </p>
       <p>
-        Our mission is to help players enjoy GTA SA on mobile with practical
-        reference tools — without hunting across dozens of forums.
+        Our mission is to help mobile players get practical reference tools in one
+        place — without hunting across dozens of forums.
       </p>
       <p className="rounded-lg border border-neon-green/20 bg-neon-green/5 p-4 text-sm text-gray-300">
         {TRADEMARK_DISCLAIMER}

@@ -1,6 +1,6 @@
 {
-  "name": "gta-sa-toolkit",
-  "version": "1.2.0",
+  "name": "sa-toolkit-pro",
+  "version": "1.4.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",

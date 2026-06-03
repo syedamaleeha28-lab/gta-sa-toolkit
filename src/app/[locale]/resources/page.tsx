@@ -1,10 +1,11 @@
 import { setRequestLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/routing";
 import { PageShell } from "@/components/ui/PageShell";
 import { GlassCard } from "@/components/ui/GlassCard";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { buildPageMetadata } from "@/lib/metadata";
-import { PUBLISHER, OFFICIAL_RESOURCES } from "@/lib/constants";
+import { TOOLKIT_HIGHLIGHTS } from "@/lib/constants";
 
 export async function generateMetadata({
   params,
@@ -29,36 +30,24 @@ export default async function ResourcesPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("resources");
-  const tHome = await getTranslations("home.officialResources");
+  const tHighlights = await getTranslations("home.toolkitHighlights");
 
   return (
     <PageShell title={t("title")} description={t("description")}>
       <GlassCard>
         <SectionHeading title={t("sectionTitle")} align="left" />
-        <p className="mt-6 text-lg leading-relaxed text-gray-300">
-          {t("backlinkBefore")}{" "}
-          <a
-            href={PUBLISHER.url}
-            className="font-medium text-neon-green underline decoration-neon-green/40 underline-offset-2 hover:text-neon-orange hover:decoration-neon-orange"
-          >
-            {t("backlinkLabel")}
-          </a>
-          .
-        </p>
-        <p className="mt-4 text-gray-400">{t("intro")}</p>
+        <p className="mt-6 text-lg leading-relaxed text-gray-300">{t("intro")}</p>
       </GlassCard>
 
       <div className="mt-8 grid gap-4 sm:grid-cols-2">
-        {OFFICIAL_RESOURCES.map((resource) => (
+        {TOOLKIT_HIGHLIGHTS.map((resource) => (
           <GlassCard key={resource.href} hover>
-            <a
+            <Link
               href={resource.href}
-              target="_blank"
-              rel="noopener noreferrer"
               className="font-display text-lg text-white hover:text-neon-green"
             >
-              {tHome(resource.labelKey)}
-            </a>
+              {tHighlights(resource.labelKey)}
+            </Link>
           </GlassCard>
         ))}
       </div>

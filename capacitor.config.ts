@@ -2,7 +2,7 @@ import type { CapacitorConfig } from "@capacitor/cli";
 
 const config: CapacitorConfig = {
   appId: "org.gtasanad.toolkit",
-  appName: "GTA SA Toolkit",
+  appName: "SA Toolkit Pro",
   webDir: "out",
   server: {
     androidScheme: "https",

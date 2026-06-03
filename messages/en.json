@@ -1,7 +1,7 @@
 {
   "common": {
-    "siteName": "GTA SA Toolkit",
-    "tagline": "Your ultimate GTA SA companion for Android",
+    "siteName": "SA Toolkit Pro",
+    "tagline": "Your gaming companion utility for Android",
     "search": "Search...",
     "copy": "Copy",
     "favorite": "Favorite",
@@ -13,11 +13,11 @@
     "back": "Back",
     "loading": "Loading...",
     "noResults": "No results found",
-    "disclaimer": "This application is an independent fan-made companion tool and is not affiliated with, endorsed by, or associated with Rockstar Games or Take-Two Interactive."
+    "disclaimer": "This application is an independent fan-made utility and is not affiliated with, endorsed by, sponsored by, or associated with any game publisher or trademark owner."
   },
   "nav": {
     "home": "Home",
-    "cheats": "Cheats",
+    "cheats": "Game Tips",
     "installWizard": "Install Guide",
     "compatibility": "Compatibility",
     "saves": "Save Games",
@@ -34,40 +34,40 @@
     "privacy": "Privacy Policy",
     "disclaimer": "Disclaimer",
     "rights": "All rights reserved.",
-    "description": "Independent companion toolkit for GTA SA on Android — guides, cheats, and reference tools.",
-    "poweredBy": "Powered by",
+    "description": "Gaming companion utility — guides, tutorials, installation help, compatibility checks, and reference materials for Android.",
+    "poweredBy": "Built for mobile players",
     "resources": "Resources"
   },
   "home": {
-    "heroTitle": "GTA SA",
-    "heroSubtitle": "Toolkit",
-    "heroDescription": "Cheat codes, install guides, compatibility checks, mission walkthroughs — everything you need in one premium app.",
-    "ctaCheats": "Find Cheats",
+    "heroTitle": "SA Toolkit",
+    "heroSubtitle": "Pro",
+    "heroDescription": "Guides, tutorials, device compatibility, troubleshooting, game tips, and reference materials — everything in one utility app.",
+    "ctaCheats": "Game Tips",
     "ctaInstall": "Install Guide",
     "ctaCompatibility": "Check Device",
-    "statsCheats": "Cheat Codes",
+    "statsCheats": "Game Tips",
     "statsMissions": "Mission Guides",
     "statsArticles": "Articles",
     "statsUsers": "Happy Players",
     "featuresTitle": "Powerful Tools",
-    "featuresSubtitle": "Everything for GTA SA Android",
+    "featuresSubtitle": "Everything for Android gaming",
     "testimonialsTitle": "What Players Say",
     "blogTitle": "Latest from the Blog",
     "blogSubtitle": "Tips, guides, and updates",
-    "officialResources": {
-      "title": "Partner Resources",
-      "subtitle": "External guides and references from GTASanad.org",
-      "gtaSaApk": "GTA SA APK Guide",
-      "gtaSaCheats": "GTA SA Cheat Codes",
-      "gtaSaInstall": "GTA SA Installation Guide",
-      "gtaVcApk": "GTA Vice City APK"
+    "toolkitHighlights": {
+      "title": "Explore the Toolkit",
+      "subtitle": "Jump to guides and tools inside the app",
+      "gameTips": "Game Tips & Reference Guide",
+      "installGuide": "Android Installation Guide",
+      "compatibility": "Device Compatibility",
+      "troubleshooting": "Troubleshooting Center"
     }
   },
   "cheats": {
-    "title": "Cheat Code Finder",
-    "description": "Search and copy GTA SA cheat codes instantly.",
-    "searchPlaceholder": "Search cheats by name or code...",
-    "copySuccess": "Cheat code copied!",
+    "title": "Game Tips & Reference Guide",
+    "description": "Search and copy game tips and reference codes instantly.",
+    "searchPlaceholder": "Search tips by name or code...",
+    "copySuccess": "Code copied!",
     "copyError": "Failed to copy",
     "categories": {
       "all": "All",
@@ -79,15 +79,15 @@
       "weather": "Weather"
     },
     "faq": {
-      "q1": "How do I enter cheats on GTA SA Android?",
-      "a1": "During gameplay, tap the screen to bring up the keyboard and type the cheat code exactly as shown. Some codes require a short pause between characters.",
-      "q2": "Do cheats disable achievements?",
-      "a2": "Using cheats may prevent you from earning certain achievements and can affect your save file. Use a backup save before experimenting."
+      "q1": "How do I enter codes on Android?",
+      "a1": "During gameplay, tap the screen to bring up the keyboard and type the code exactly as shown. Some codes require a short pause between characters.",
+      "q2": "Do codes affect achievements?",
+      "a2": "Using codes may prevent you from earning certain achievements and can affect your save file. Use a backup save before experimenting."
     }
   },
   "wizard": {
     "title": "Android Installation Wizard",
-    "description": "Step-by-step guide to install GTA SA APK and OBB files.",
+    "description": "Step-by-step guide to install APK and OBB files on Android.",
     "selectAndroid": "Select your Android version",
     "stepsTitle": "Installation Steps",
     "errorsTitle": "Common Errors",
@@ -95,7 +95,7 @@
   },
   "compatibility": {
     "title": "Device Compatibility Checker",
-    "description": "Find the best GTA SA version and graphics settings for your device.",
+    "description": "Find the best build and graphics settings for your device.",
     "androidVersion": "Android Version",
     "ram": "RAM (GB)",
     "storage": "Free Storage (GB)",
@@ -119,7 +119,7 @@
   },
   "versions": {
     "title": "Version Comparison",
-    "description": "Compare GTA SA and Vice City Android builds.",
+    "description": "Compare Android game builds and performance profiles.",
     "size": "Size",
     "features": "Features",
     "android": "Android Min",
@@ -128,7 +128,7 @@
   },
   "missions": {
     "title": "Mission Guide",
-    "description": "Walkthroughs and tips for every GTA SA mission.",
+    "description": "Walkthroughs and tips for story missions.",
     "searchPlaceholder": "Search missions...",
     "difficulty": "Difficulty",
     "tips": "Tips",
@@ -137,29 +137,29 @@
   },
   "troubleshooting": {
     "title": "Troubleshooting Center",
-    "description": "Fix common GTA SA Android issues quickly.",
+    "description": "Fix common Android gaming issues quickly.",
     "solutions": "Solutions"
   },
   "favorites": {
     "title": "My Favorites",
-    "description": "Your saved cheats and guides.",
-    "cheatsTab": "Cheats",
+    "description": "Your saved tips and guides.",
+    "cheatsTab": "Game Tips",
     "guidesTab": "Guides",
     "empty": "No favorites yet. Start exploring!",
-    "goCheats": "Browse Cheats",
+    "goCheats": "Browse Game Tips",
     "goMissions": "Browse Missions"
   },
   "analytics": {
     "title": "Analytics Dashboard",
     "description": "Your personal usage stats (stored on this device only).",
-    "totalViews": "Total Cheat Views",
-    "topCopied": "Most Copied Cheats",
+    "totalViews": "Total Tip Views",
+    "topCopied": "Most Copied Tips",
     "popularCategories": "Popular Categories",
     "localNote": "Stats are stored locally on your device and are never sent to a server."
   },
   "blog": {
     "title": "Blog",
-    "description": "Guides, tips, and news for GTA SA on Android.",
+    "description": "Guides, tips, and news for Android gaming.",
     "featured": "Featured",
     "readMore": "Read more",
     "related": "Related Posts"
@@ -172,83 +172,83 @@
   },
   "resources": {
     "title": "Resources",
-    "description": "Recommended GTA SA downloads, mods, save files, and installation guides.",
-    "sectionTitle": "Recommended GTA SA Resources",
-    "backlinkBefore": "For GTA SA downloads, mods, save files, and installation guides, visit",
-    "backlinkLabel": "GTA Sanad",
-    "intro": "These external resources complement the tools available in this toolkit."
+    "description": "Recommended installation guides, mods, save files, and reference materials.",
+    "sectionTitle": "In-App Resources",
+    "backlinkBefore": "Explore guides and tools inside",
+    "backlinkLabel": "SA Toolkit Pro",
+    "intro": "These tools help with installation, compatibility, troubleshooting, and gameplay reference."
   },
   "toolkitPromo": {
     "home": {
       "eyebrow": "All-in-one hub",
-      "title": "GTA SA Toolkit — Your Complete Companion",
-      "description": "Cheat codes, Android install guides, mission walkthroughs, compatibility checks, and troubleshooting — everything in one place.",
-      "contextBefore": "Start with the",
-      "contextAnchor": "GTA SA Toolkit",
+      "title": "SA Toolkit Pro — Your Gaming Companion",
+      "description": "Tutorials, Android install guides, mission walkthroughs, compatibility checks, and troubleshooting — everything in one place.",
+      "contextBefore": "Start with",
+      "contextAnchor": "SA Toolkit Pro",
       "contextAfter": " to explore every tool built for mobile players.",
-      "linkCheats": "GTA SA Cheats & Tools",
+      "linkCheats": "Game Tips & Reference",
       "linkMissions": "Mission Guides",
       "linkInstall": "Android Install Guide",
       "linkTroubleshooting": "Troubleshooting Center"
     },
     "cheats": {
       "eyebrow": "Toolkit hub",
-      "title": "More Than Cheat Codes",
-      "description": "GTA SA Toolkit also includes install wizards, save libraries, version comparisons, and mission walkthroughs.",
-      "ctaPrimary": "GTA SA Toolkit",
-      "ctaSecondary": "GTA SA Companion Tool",
+      "title": "More Than Game Tips",
+      "description": "SA Toolkit Pro also includes install wizards, save libraries, version comparisons, and mission walkthroughs.",
+      "ctaPrimary": "SA Toolkit Pro",
+      "ctaSecondary": "Gaming Companion",
       "contextBefore": "Need install help or mission tips too? Visit the",
-      "contextAnchor": "GTA SA Cheats & Tools",
+      "contextAnchor": "Game Tips hub",
       "contextAfter": " homepage for the full toolkit."
     },
     "missions": {
       "eyebrow": "Toolkit hub",
       "title": "Stuck on a Mission?",
-      "description": "Pair these walkthroughs with cheat finders, compatibility checks, and troubleshooting guides from the main toolkit.",
-      "ctaPrimary": "GTA SA Toolkit",
-      "ctaSecondary": "GTA SA Toolkit",
-      "contextBefore": "For cheats, installs, and device checks alongside guides, open the",
-      "contextAnchor": "GTA SA Companion Tool",
+      "description": "Pair these walkthroughs with game tips, compatibility checks, and troubleshooting guides from the main toolkit.",
+      "ctaPrimary": "SA Toolkit Pro",
+      "ctaSecondary": "Gaming Companion",
+      "contextBefore": "For tips, installs, and device checks alongside guides, open",
+      "contextAnchor": "SA Toolkit Pro",
       "contextAfter": " on the toolkit homepage."
     },
     "troubleshooting": {
       "eyebrow": "Toolkit hub",
       "title": "Fix Issues Faster",
       "description": "Combine these fixes with the install wizard, OBB guides, and compatibility checker in one place.",
-      "ctaPrimary": "GTA SA Toolkit",
-      "ctaSecondary": "GTA SA Toolkit",
-      "contextBefore": "Many fixes work best alongside the install and compatibility tools on the",
-      "contextAnchor": "GTA SA Toolkit",
-      "contextAfter": " hub."
+      "ctaPrimary": "SA Toolkit Pro",
+      "ctaSecondary": "Gaming Companion",
+      "contextBefore": "Many fixes work best alongside the install and compatibility tools on",
+      "contextAnchor": "SA Toolkit Pro",
+      "contextAfter": "."
     },
     "installWizard": {
       "eyebrow": "Toolkit hub",
       "title": "Complete Android Setup",
-      "description": "After installing, use cheat finders, save libraries, and mission guides from the same toolkit.",
-      "ctaPrimary": "GTA Toolkit Pro",
-      "ctaSecondary": "GTA SA Cheats & Tools",
-      "contextBefore": "Once APK and OBB are in place, explore the rest of the",
-      "contextAnchor": "GTA Toolkit Pro",
+      "description": "After installing, use game tips, save libraries, and mission guides from the same toolkit.",
+      "ctaPrimary": "SA Toolkit Pro",
+      "ctaSecondary": "Game Tips & Reference",
+      "contextBefore": "Once APK and OBB are in place, explore the rest of",
+      "contextAnchor": "SA Toolkit Pro",
       "contextAfter": " on the main toolkit page."
     }
   },
   "notFound": {
     "title": "Page Not Found",
-    "description": "This part of the map doesn't exist.",
+    "description": "This page does not exist.",
     "home": "Back to Home"
   },
   "privacyPolicy": {
     "metaTitle": "Privacy Policy",
-    "metaDescription": "GTA SA Toolkit privacy policy — how we collect, use, and protect your data. Covers analytics, cookies, Google Play compliance, children's privacy, and contact details for gtasanadapk@gmail.com.",
-    "lastUpdated": "Last updated: May 29, 2026",
-    "intro": "This Privacy Policy describes how GTA SA Toolkit (\"we,\" \"us,\" or \"our\") collects, uses, and protects information when you use our website at gtasanad.org, our web application, and our Android mobile application (collectively, the \"Service\"). By using the Service, you agree to the practices described in this policy.",
+    "metaDescription": "SA Toolkit Pro privacy policy — how we collect, use, and protect your data. Covers analytics, cookies, app store compliance, children's privacy, and contact details.",
+    "lastUpdated": "Last updated: June 2, 2026",
+    "intro": "This Privacy Policy describes how SA Toolkit Pro (\"we,\" \"us,\" or \"our\") collects, uses, and protects information when you use our web application and Android mobile application (collectively, the \"Service\"). By using the Service, you agree to the practices described in this policy.",
     "sections": {
       "informationCollection": {
         "title": "1. Information Collection",
-        "intro": "GTA SA Toolkit is designed with privacy in mind. We do not require you to create an account, and we do not operate user registration or login systems.",
+        "intro": "SA Toolkit Pro is designed with privacy in mind. We do not require you to create an account, and we do not operate user registration or login systems.",
         "items": [
           "We do not collect personal information such as your name, postal address, or payment details through the Service.",
-          "Favorites (saved cheats and guides) are stored locally on your device using browser or app local storage and are not transmitted to our servers.",
+          "Favorites (saved tips and guides) are stored locally on your device using browser or app local storage and are not transmitted to our servers.",
           "Device compatibility checks (RAM, storage, Android version) are processed locally in your browser or app and are not sent to us.",
           "If you contact us by email, we receive the information you voluntarily provide (such as your email address and message content) solely to respond to your inquiry.",
           "When you access the web version, our hosting provider may automatically collect standard server logs (e.g., IP address, browser type, access time) as described in Section 4."
@@ -259,7 +259,7 @@
         "title": "2. Analytics Usage",
         "intro": "The Service includes a local analytics dashboard that helps you track your own usage within the app.",
         "items": [
-          "Analytics data (page views, cheat copies, category preferences) is stored exclusively on your device using localStorage or equivalent app storage.",
+          "Analytics data (page views, tip copies, category preferences) is stored exclusively on your device using localStorage or equivalent app storage.",
           "We do not use third-party analytics SDKs such as Google Analytics, Firebase Analytics, or similar tracking services within the app.",
           "Aggregated usage statistics are never uploaded to our servers or shared with advertisers.",
           "You can clear your local analytics data at any time through the Analytics page or by clearing app/browser storage."
@@ -268,7 +268,7 @@
       },
       "cookies": {
         "title": "3. Cookies",
-        "intro": "GTA SA Toolkit uses minimal storage technologies to provide core functionality.",
+        "intro": "SA Toolkit Pro uses minimal storage technologies to provide core functionality.",
         "items": [
           "Local storage and session storage are used to persist favorites, language preferences, and local analytics on your device.",
           "We do not use advertising cookies or cross-site tracking cookies.",
@@ -282,23 +282,22 @@
         "intro": "We rely on a limited number of third-party services to operate the Service:",
         "items": [
           "Hosting providers (e.g., Vercel) may process technical data necessary to deliver the web application, subject to their own privacy policies.",
-          "Google Play Store distributes our Android app and may collect data according to Google's Privacy Policy when you download or update the app.",
-          "External websites such as gtasanad.org are linked for additional GTA SA companion resources; those sites operate under their own privacy policies.",
+          "App stores (Google Play, Amazon Appstore, etc.) may collect data according to their own privacy policies when you download or update the app.",
           "We do not integrate social media login, payment processors, or advertising networks into the core Service."
         ],
-        "outro": "We encourage you to review the privacy policies of any third-party services you interact with through links in the Service."
+        "outro": "We encourage you to review the privacy policies of any third-party services you interact with through the Service."
       },
       "googlePlayCompliance": {
-        "title": "5. Google Play Compliance",
-        "intro": "Our Android app, GTA SA Toolkit, is published on Google Play and complies with Google Play Developer Program policies and the Google Play Data Safety requirements.",
+        "title": "5. App Store Compliance",
+        "intro": "Our Android app, SA Toolkit Pro, is distributed on app stores and follows applicable developer program policies and data safety requirements.",
         "items": [
           "The app does not collect personal or sensitive user data for transmission to our servers.",
           "No data is sold or shared with third parties for advertising or marketing.",
-          "The app requests only permissions necessary for core functionality (network access for external resource links; local storage for favorites and analytics).",
-          "Data safety declarations on Google Play accurately reflect that user data is stored locally on the device.",
+          "The app requests only permissions necessary for core functionality (network access for optional links; local storage for favorites and analytics).",
+          "Data safety declarations accurately reflect that user data is stored locally on the device.",
           "Users may request data deletion by clearing app storage or uninstalling the application."
         ],
-        "outro": "For questions about our Google Play data practices, contact us using the information in Section 10."
+        "outro": "For questions about our data practices, contact us using the information in Section 10."
       },
       "dataSecurity": {
         "title": "6. Data Security",
@@ -313,20 +312,20 @@
       },
       "childrensPrivacy": {
         "title": "7. Children's Privacy",
-        "intro": "GTA SA Toolkit is a general-audience utility app and is not directed at children under the age of 13 (or the applicable age of digital consent in your jurisdiction).",
+        "intro": "SA Toolkit Pro is a general-audience utility app and is not directed at children under the age of 13 (or the applicable age of digital consent in your jurisdiction).",
         "items": [
           "We do not knowingly collect personal information from children under 13.",
           "The Service does not include age-gated registration or accounts.",
-          "GTA SA is rated Mature (17+) by the ESRB; parents and guardians should supervise minors' use of game-related content.",
+          "Parents and guardians should supervise minors' use of game-related content.",
           "If you believe a child has provided us with personal information, please contact us and we will promptly delete it."
         ],
         "outro": "We comply with the U.S. Children's Online Privacy Protection Act (COPPA) and similar international regulations where applicable."
       },
       "externalLinks": {
         "title": "8. External Links",
-        "intro": "The Service contains links to third-party websites, including our official website and partner resources.",
+        "intro": "The Service may contain links to third-party websites.",
         "items": [
-          "Links to gtasanad.org and other external sites open in your browser or in-app browser and are subject to those sites' privacy policies.",
+          "External links open in your browser or in-app browser and are subject to those sites' privacy policies.",
           "We are not responsible for the content, privacy practices, or security of third-party websites.",
           "Clicking an external link may allow the destination site to collect information according to its own policy.",
           "We recommend reviewing the privacy policy of any external site before providing personal information."
@@ -335,10 +334,10 @@
       },
       "changesToPolicy": {
         "title": "9. Changes to This Privacy Policy",
-        "intro": "We may update this Privacy Policy from time to time to reflect changes in our practices, legal requirements, or Google Play policies.",
+        "intro": "We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements.",
         "items": [
           "The \"Last updated\" date at the top of this page indicates when the policy was last revised.",
-          "Material changes will be posted on this page and, where appropriate, noted within the app or on gtasanad.org.",
+          "Material changes will be posted on this page and, where appropriate, noted within the app.",
           "Continued use of the Service after changes constitutes acceptance of the updated policy.",
           "We encourage you to review this page periodically."
         ],
@@ -348,10 +347,10 @@
         "title": "10. Contact Information",
         "intro": "If you have questions, concerns, or requests regarding this Privacy Policy or your data, please contact us:",
         "appLabel": "App",
-        "appName": "GTA SA Toolkit",
+        "appName": "SA Toolkit Pro",
         "websiteLabel": "Website",
         "emailLabel": "Email",
-        "outro": "We aim to respond to privacy-related inquiries within a reasonable timeframe. For Google Play-related data requests, please include your Google account email and a description of your request."
+        "outro": "We aim to respond to privacy-related inquiries within a reasonable timeframe."
       }
     }
   }

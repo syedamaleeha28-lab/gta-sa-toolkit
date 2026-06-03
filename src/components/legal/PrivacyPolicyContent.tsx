@@ -1,8 +1,6 @@
 import { ExternalLink } from "@/components/ui/ExternalLink";
-import { PUBLISHER } from "@/lib/constants";
+import { CONTACT_EMAIL, SITE_URL } from "@/lib/constants";
 import { getTranslations } from "next-intl/server";
-
-const CONTACT_EMAIL = "gtasanadapk@gmail.com";
 
 function PolicySection({
   title,
@@ -111,7 +109,7 @@ export async function PrivacyPolicyContent() {
           </li>
           <li>
             <strong className="text-white">{t("sections.contactInformation.websiteLabel")}:</strong>{" "}
-            <ExternalLink href={PUBLISHER.url}>{PUBLISHER.url}</ExternalLink>
+            <ExternalLink href={SITE_URL}>{SITE_URL}</ExternalLink>
           </li>
           <li>
             <strong className="text-white">{t("sections.contactInformation.emailLabel")}:</strong>{" "}

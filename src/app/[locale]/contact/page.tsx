@@ -31,8 +31,8 @@ export default async function ContactPage({
       <p>For feedback, bug reports, or partnership inquiries:</p>
       <p>
         Email:{" "}
-        <a href="mailto:contact@gtatoolkit.example" className="text-neon-green">
-          contact@gtatoolkit.example
+        <a href="mailto:support@satoolkitpro.app" className="text-neon-green">
+          support@satoolkitpro.app
         </a>
       </p>
       <p>GitHub: Open an issue on our repository for technical support.</p>

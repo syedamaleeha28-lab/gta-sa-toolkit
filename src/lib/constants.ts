@@ -1,4 +1,4 @@
-export const SITE_NAME = "GTA SA Toolkit";
+export const SITE_NAME = "SA Toolkit Pro";
 export const PRODUCTION_SITE_URL = "https://gta-sa-toolkit.vercel.app";
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? PRODUCTION_SITE_URL;
@@ -7,41 +7,26 @@ export const SITE_URL =
 export function getToolkitHomeUrl(locale = "en"): string {
   return `${PRODUCTION_SITE_URL}/${locale}`;
 }
+
 export const SITE_DESCRIPTION =
-  "Independent GTA SA companion — cheat codes, Android install wizard, compatibility checker, mission guides, and troubleshooting.";
+  "Gaming companion utility — guides, tutorials, Android installation help, device compatibility, troubleshooting, tips, and reference materials.";
 
 export const TRADEMARK_DISCLAIMER =
-  "This application is an independent fan-made companion tool and is not affiliated with, endorsed by, or associated with Rockstar Games or Take-Two Interactive.";
+  "This application is an independent fan-made utility and is not affiliated with, endorsed by, sponsored by, or associated with any game publisher or trademark owner.";
 
-export const PUBLISHER = {
-  name: "GTASanad.org",
-  alternateName: "GTA Sanad",
-  url: "https://gtasanad.org",
-  logo: "https://gtasanad.org/gtasanad-logo.webp",
-} as const;
+export const CONTACT_EMAIL = "support@satoolkitpro.app";
 
 export const LOGO_PATH = "/app-icon.png";
-export const LOGO_ALT = "GTA SA Toolkit";
+export const LOGO_ALT = "SA Toolkit Pro";
 export const LOGO_WIDTH = 512;
 export const LOGO_HEIGHT = 512;
 
-export const OFFICIAL_RESOURCES = [
-  {
-    href: "https://gtasanad.org/",
-    labelKey: "gtaSaApk",
-  },
-  {
-    href: "https://gtasanad.org/gta-san-andreas-cheat-codes-android/",
-    labelKey: "gtaSaCheats",
-  },
-  {
-    href: "https://gtasanad.org/how-to-install-gta-san-andreas-android/",
-    labelKey: "gtaSaInstall",
-  },
-  {
-    href: "https://gtasanad.org/gta-vice-city-apk/",
-    labelKey: "gtaVcApk",
-  },
+/** In-app feature highlights (internal routes only) */
+export const TOOLKIT_HIGHLIGHTS = [
+  { href: "/cheats", labelKey: "gameTips" },
+  { href: "/install-wizard", labelKey: "installGuide" },
+  { href: "/compatibility", labelKey: "compatibility" },
+  { href: "/troubleshooting", labelKey: "troubleshooting" },
 ] as const;
 
 export const OG_IMAGE = "/app-icon.png";

@@ -2,9 +2,9 @@ import type { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
-    slug: "best-gta-sa-android-settings",
-    title: "Best GTA SA Android Graphics Settings",
-    excerpt: "Optimize graphics for smooth 60fps gameplay on any device.",
+    slug: "best-android-graphics-settings",
+    title: "Best Android Graphics Settings",
+    excerpt: "Optimize graphics for smooth gameplay on any device.",
     date: "2025-05-15",
     tags: ["graphics", "performance", "android"],
     featured: true,
@@ -14,34 +14,30 @@ export const blogPosts: BlogPost[] = [
     ],
   },
   {
-    slug: "how-to-install-obb-gta-sa",
-    title: "How to Install OBB Files for GTA SA",
+    slug: "how-to-install-obb-android",
+    title: "How to Install OBB Files on Android",
     excerpt: "Complete guide to placing OBB files correctly on Android.",
     date: "2025-05-10",
     tags: ["install", "obb", "android"],
     featured: true,
     body: [
-      { heading: "Correct Path", content: "The OBB must go in Android/obb/com.rockstargames.gtasa/ — no typos in folder name." },
+      { heading: "Correct Path", content: "Place the OBB in Android/obb under your installed app's package folder — no typos in folder name." },
       { heading: "Verification", content: "File should be ~1.9GB. Partial downloads cause black screen issues." },
     ],
     contextNote: {
       en: {
-        before:
-          "If folder names or download sizes still look wrong after following these steps, ",
-        after:
-          " publishes a plain-language install reference that covers APK placement and the most common OBB path mistakes on Android.",
+        before: "If folder names or download sizes still look wrong, review the ",
+        after: " install wizard in this app for APK placement and common OBB path mistakes.",
       },
       ar: {
-        before:
-          "إذا ظهرت أسماء المجلدات أو أحجام التحميل غير صحيحة بعد هذه الخطوات، ",
-        after:
-          " يقدّم مرجعاً عملياً للتثبيت يشرح وضع APK وأخطاء مسار OBB الشائعة على أندرويد.",
+        before: "إذا ظهرت أسماء المجلدات أو أحجام التحميل غير صحيحة، راجع ",
+        after: " معالج التثبيت في التطبيق لوضع APK وأخطاء مسار OBB الشائعة.",
       },
     },
   },
   {
-    slug: "gta-sa-211-311-vs-277",
-    title: "GTA SA 2.11.311 vs 2.11.277 Comparison",
+    slug: "android-build-311-vs-277",
+    title: "Build 2.11.311 vs 2.11.277 Comparison",
     excerpt: "Which version is right for your Android phone?",
     date: "2025-05-05",
     tags: ["versions", "comparison"],
@@ -52,19 +48,19 @@ export const blogPosts: BlogPost[] = [
     ],
   },
   {
-    slug: "top-10-gta-sa-cheats-android",
-    title: "Top 10 GTA SA Cheats for Android",
-    excerpt: "Essential cheat codes every mobile player should know.",
+    slug: "top-10-game-tips-android",
+    title: "Top 10 Game Tips for Android",
+    excerpt: "Essential reference codes every mobile player should know.",
     date: "2025-04-28",
-    tags: ["cheats", "android"],
+    tags: ["tips", "android"],
     featured: false,
     body: [
-      { heading: "Must-Have Codes", content: "HESOYAM for health and money, ROCKETMAN for jetpack, LEAVEMEALONE to clear wanted." },
+      { heading: "Must-Have Codes", content: "Browse the in-app Game Tips section for health, vehicles, and wanted-level references." },
     ],
   },
   {
-    slug: "fix-gta-sa-black-screen",
-    title: "Fix GTA SA Black Screen on Android",
+    slug: "fix-black-screen-android",
+    title: "Fix Black Screen on Android",
     excerpt: "Step-by-step solutions for the most common launch issue.",
     date: "2025-04-20",
     tags: ["troubleshooting", "black-screen"],
@@ -74,33 +70,29 @@ export const blogPosts: BlogPost[] = [
     ],
     contextNote: {
       en: {
-        before:
-          "When a black screen persists after cache clearing, it helps to cross-check launch steps against a second troubleshooting list. ",
-        after:
-          " groups black-screen fixes around OBB detection, storage access, and clean reinstall order—useful if one step alone does not resolve the issue.",
+        before: "When a black screen persists after cache clearing, cross-check steps in the ",
+        after: " troubleshooting center for OBB detection, storage access, and reinstall order.",
       },
       ar: {
-        before:
-          "إذا استمرت الشاشة السوداء بعد مسح الذاكرة المؤقتة، فمن المفيد مقارنة خطوات التشغيل مع قائمة استكشاف أخطاء إضافية. ",
-        after:
-          " يجمع حلول الشاشة السوداء حول اكتشاف OBB وصلاحيات التخزين وترتيب إعادة التثبيت—مفيد إذا لم تحل خطوة واحدة المشكلة.",
+        before: "إذا استمرت الشاشة السوداء بعد مسح الذاكرة المؤقتة، راجع ",
+        after: " مركز استكشاف الأخطاء لاكتشاف OBB وصلاحيات التخزين وترتيب إعادة التثبيت.",
       },
     },
   },
   {
-    slug: "grove-street-mission-guide",
-    title: "Grove Street Missions Walkthrough",
-    excerpt: "Complete guide to early Los Santos story missions.",
+    slug: "early-story-mission-walkthrough",
+    title: "Early Story Missions Walkthrough",
+    excerpt: "Complete guide to opening story missions.",
     date: "2025-04-15",
     tags: ["missions", "walkthrough"],
     featured: false,
     body: [
-      { heading: "Early Game", content: "Focus on tagging turf and drive-bys before tackling Ryder and Smoke missions." },
+      { heading: "Early Game", content: "Focus on territory missions and drive-bys before advancing the main storyline." },
     ],
   },
   {
-    slug: "gta-sa-controller-support",
-    title: "GTA SA Controller Support on Android",
+    slug: "controller-support-android",
+    title: "Controller Support on Android",
     excerpt: "Connect Bluetooth controllers for the best experience.",
     date: "2025-04-10",
     tags: ["controller", "android"],
@@ -111,26 +103,22 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "save-game-backup-guide",
-    title: "How to Backup GTA SA Save Games",
-    excerpt: "Protect your progress before installing mods or cheats.",
+    title: "How to Backup Save Games",
+    excerpt: "Protect your progress before installing mods or testing tips.",
     date: "2025-04-05",
     tags: ["saves", "backup"],
     featured: false,
     body: [
-      { heading: "Backup Path", content: "Copy files from Android/data/com.rockstargames.gtasa/files/ to cloud storage." },
+      { heading: "Backup Path", content: "Copy save files from your app's Android/data folder to cloud storage." },
     ],
     contextNote: {
       en: {
-        before:
-          "Before swapping in another player's save or testing mods, confirm the file matches your installed build. ",
-        after:
-          " notes where Android stores GTA SA saves and how to back them up safely before making changes.",
+        before: "Before swapping saves or testing mods, confirm files match your installed build. ",
+        after: " explains where Android stores saves and how to back them up safely.",
       },
       ar: {
-        before:
-          "قبل استخدام حفظ لاعب آخر أو تجربة التعديلات، تأكد أن الملف يتوافق مع إصدار اللعبة المثبت. ",
-        after:
-          " يوضح مكان حفظ ملفات GTA SA على أندرويد وكيفية نسخها احتياطياً قبل أي تغيير.",
+        before: "قبل استبدال ملفات الحفظ أو تجربة التعديلات، تأكد من توافق الملفات مع إصدارك. ",
+        after: " يشرح مكان حفظ الملفات على أندرويد وكيفية النسخ الاحتياطي.",
       },
     },
   },
